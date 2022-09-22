@@ -490,4 +490,4 @@ const list = [
     {"label":"Shardul Kher","Title of your Project (in 8 words or less)":"Robotics"},
     {"label":"Sidhant Bose","Title of your Project (in 8 words or less)":"Fundamentals of Computer Vision"}
     ]
-export default list
+export {list}
