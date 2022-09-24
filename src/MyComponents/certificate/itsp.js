@@ -7,12 +7,35 @@ import Select from "@mui/material/Select";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
+import { saveAs } from "file-saver";
+import { completion } from "../../assets/itsp-completion";
 
 export default function ITSP() {
   var type;
   const [ismentee, setmentee] = useState(false);
   const [ismentor, setmentor] = useState(false);
   const [isselected, setselect] = useState(false);
+
+  // var mentee = document.getElementById("mentee").value;
+  // var mentor = document.getElementById("mentor").value;
+
+  // console.log(`${window.location.href}certificates/completion${key}.png`);
+
+  const downloadfile = async () => {
+    var key = 0;
+    if (ismentee) {
+      var mentee = document.getElementById("mentee").value;
+      key = mentee.replace(/\s+/g, "%20");
+    } else if (ismentor) {
+      var mentor = document.getElementById("mentor").value;
+      key = mentor;
+    }
+
+    const links = ["completion", "Mentors", "Merit", "Special_Mention"];
+    var filename = `itsp-${links}.png`
+    const link = `${window.location.href}certificates/${links}/${key}.png`;
+    await saveAs(link, filename);
+  };
 
   const handleChange = (e) => {
     if (e) {
@@ -28,7 +51,7 @@ export default function ITSP() {
   };
 
   const valueChange = (event) => {
-    console.log(event.target.textContent);
+    var key = event.target.textContent;
     if (event.target.textContent !== "") {
       setselect(true);
     } else {
@@ -62,8 +85,8 @@ export default function ITSP() {
           <Autocomplete
             id="mentee"
             className="pt-5"
-            options={mentee}
-            getOptionLabel={(option) => option.name}
+            options={completion}
+            getOptionLabel={(option) => option.Name}
             onChange={(e) => {
               valueChange(e);
             }}
@@ -91,7 +114,7 @@ export default function ITSP() {
       ) : (
         <></>
       )}
-      {isselected ? <button>Download</button> : <></>}
+      {isselected ? <button onClick={downloadfile}>Download</button> : <></>}
     </div>
   );
 }
