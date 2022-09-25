@@ -1,192 +1,9 @@
 const completion = [
     {
-     "Name": "Shobhit Maheshwari"
-    },
-    {
-     "Name": "Kartik UC"
-    },
-    {
-     "Name": "Harsh Agarwal"
-    },
-    {
-     "Name": "Archit B Swamy"
-    },
-    {
-     "Name": "Priyadarshini Kamat"
-    },
-    {
-     "Name": "Vaibhavi Shinde"
-    },
-    {
-     "Name": "Akanksha Kadam"
-    },
-    {
-     "Name": "Shruti"
-    },
-    {
-     "Name": "Mili R Pillai"
-    },
-    {
-     "Name": "Ramzan Crescent Noushad"
-    },
-    {
-     "Name": "Faheem M Yoonus"
-    },
-    {
-     "Name": "Aashay Patil"
-    },
-    {
-     "Name": "K Raghuram Chakravorthy"
-    },
-    {
-     "Name": "Kritika Gupta"
-    },
-    {
-     "Name": "Vemparala Lakshmi Pravallika"
-    },
-    {
-     "Name": "Shreya Tiwari"
-    },
-    {
-     "Name": "KRITI A"
-    },
-    {
-     "Name": "RASHMI KHETAN"
-    },
-    {
-     "Name": "SRI PRADHEEP K"
-    },
-    {
-     "Name": "VINU RAKAV S"
-    },
-    {
-     "Name": "Disha Gupta"
-    },
-    {
-     "Name": "Vighnesh JR"
-    },
-    {
-     "Name": "Harsh Giri"
-    },
-    {
-     "Name": "Mohammed Hanzala Ansari"
-    },
-    {
-     "Name": "Satyajeet Das"
-    },
-    {
-     "Name": "Suryansh Lunkar"
-    },
-    {
-     "Name": "Bhavanisankar Lenka"
-    },
-    {
-     "Name": "Dhruv Patel"
-    },
-    {
-     "Name": "DEVESH SONI"
-    },
-    {
-     "Name": "ISHAAN MANHAR"
-    },
-    {
-     "Name": "SHRISTI SHRIVASTAVA"
-    },
-    {
-     "Name": "JITARTHA TALUKDAR"
-    },
-    {
-     "Name": "Dendukuri Sandeep Varma"
-    },
-    {
-     "Name": "Dwarapudi Harshavardhan"
-    },
-    {
-     "Name": "Cheerla Vinay Kumar"
-    },
-    {
-     "Name": "Annam Sai Vardhan"
-    },
-    {
-     "Name": "Atharva Chodankar"
-    },
-    {
-     "Name": "Shruti Prajapati"
-    },
-    {
-     "Name": "Arpita Joshi"
-    },
-    {
-     "Name": "Jay Soni"
-    },
-    {
-     "Name": "Anmol Prabhakar"
-    },
-    {
-     "Name": "Vinayak Gautam"
-    },
-    {
-     "Name": "Vivek Parmar"
-    },
-    {
-     "Name": "Pranav Singla"
-    },
-    {
-     "Name": "Ashish Kumar saini"
-    },
-    {
-     "Name": "Satish saini"
-    },
-    {
-     "Name": "Rekha sharma"
-    },
-    {
-     "Name": "Abhishek Singh "
-    },
-    {
-     "Name": "Atharv Kurde"
-    },
-    {
-     "Name": "Shubham Ingale"
-    },
-    {
-     "Name": "Rashi Jain"
+     "Name": "A.B. Aadhitya Narayanan"
     },
     {
      "Name": "Aahna Banerjee"
-    },
-    {
-     "Name": "Yeshash Chandra Deeti"
-    },
-    {
-     "Name": "Piyush Banka"
-    },
-    {
-     "Name": "Ruthvika A"
-    },
-    {
-     "Name": "Khyathi Mothika"
-    },
-    {
-     "Name": "Rucha Manish Aghera"
-    },
-    {
-     "Name": "Gohil Jaydeep"
-    },
-    {
-     "Name": "Henil Agrawal"
-    },
-    {
-     "Name": "G. Sri Harsha"
-    },
-    {
-     "Name": "Ayush Pulaiya"
-    },
-    {
-     "Name": "Anuj Bangad"
-    },
-    {
-     "Name": "Om desai"
     },
     {
      "Name": "Aarya Bhuva"
@@ -195,106 +12,406 @@ const completion = [
      "Name": "Aaryan Dangi"
     },
     {
-     "Name": "Cheshta Damor"
+     "Name": "Aashay Patil"
     },
     {
-     "Name": "Tanmay Jain"
+     "Name": "Abhishek Kushwah"
     },
     {
-     "Name": "Saptarsi Bhattacharjee"
+     "Name": "Abhishek Singh "
     },
     {
-     "Name": "Avinandan patel"
-    },
-    {
-     "Name": "G R Uday Kumar Reddy"
-    },
-    {
-     "Name": "Saurabh Devendrakumar Baghele"
-    },
-    {
-     "Name": "Umesh Ghaskata"
-    },
-    {
-     "Name": "Jinay Nandu"
-    },
-    {
-     "Name": "Srishti Sharma"
+     "Name": "Aboli"
     },
     {
      "Name": "Adithyan Rajesh "
     },
     {
-     "Name": "Desai Utsav Manojkumar"
+     "Name": "Aditya Dhande"
     },
     {
-     "Name": "Dhananjay Agnihotri"
+     "Name": "Aditya Rana"
     },
     {
-     "Name": "Yogesh Chetan"
+     "Name": "Akanksha Kadam"
     },
     {
-     "Name": "Ashutosh Mulchandani"
-    },
-    {
-     "Name": "K S Varun"
-    },
-    {
-     "Name": "Ragasree R K"
-    },
-    {
-     "Name": "Lansi H"
-    },
-    {
-     "Name": "Amshuman Sashi"
-    },
-    {
-     "Name": "Ayush kale"
-    },
-    {
-     "Name": "Mohit Chandak"
-    },
-    {
-     "Name": "Annant jain"
-    },
-    {
-     "Name": "Tushaar Jhamtani"
-    },
-    {
-     "Name": "Manas Agarwal"
-    },
-    {
-     "Name": "Anish Kulkarni"
-    },
-    {
-     "Name": "Aparna Agrawal"
-    },
-    {
-     "Name": "Srishti Gautam"
-    },
-    {
-     "Name": "Gireesh Kumar"
-    },
-    {
-     "Name": "Anuj Jakhar"
-    },
-    {
-     "Name": "Himanshu Suvata"
-    },
-    {
-     "Name": "Avinash Kumar"
+     "Name": "Aman Sharma"
     },
     {
      "Name": "Ameya Marakarkandy"
     },
     {
+     "Name": "Amit Kumar"
+    },
+    {
+     "Name": "Amshuman Sashi"
+    },
+    {
+     "Name": "Anish Kulkarni"
+    },
+    {
+     "Name": "Anjali"
+    },
+    {
      "Name": "Anmol Gayakwad"
     },
     {
-     "Name": "Aditya Dhande"
+     "Name": "Anmol Prabhakar"
+    },
+    {
+     "Name": "Annam Sai Vardhan"
+    },
+    {
+     "Name": "Annant jain"
+    },
+    {
+     "Name": "Anuj Bangad"
+    },
+    {
+     "Name": "Anuj Jakhar"
+    },
+    {
+     "Name": "Aparna Agrawal"
+    },
+    {
+     "Name": "Archit B Swamy"
+    },
+    {
+     "Name": "Archit Gupta"
+    },
+    {
+     "Name": "Arnav Kalgutkar"
+    },
+    {
+     "Name": "Arpita Joshi"
+    },
+    {
+     "Name": "Aryan Kamat"
+    },
+    {
+     "Name": "Aryank Banoth"
+    },
+    {
+     "Name": "Ashish Kumar saini"
+    },
+    {
+     "Name": "Ashutosh Mulchandani"
+    },
+    {
+     "Name": "Atharv Kurde"
+    },
+    {
+     "Name": "Atharva Chodankar"
+    },
+    {
+     "Name": "Avinandan patel"
+    },
+    {
+     "Name": "Avinash Kumar"
+    },
+    {
+     "Name": "Ayush kale"
+    },
+    {
+     "Name": "Ayush Pulaiya"
+    },
+    {
+     "Name": "Bhavanisankar Lenka"
+    },
+    {
+     "Name": "Bhumika Mehta"
+    },
+    {
+     "Name": "Bhuvan Damor"
+    },
+    {
+     "Name": "Cheerla Vinay Kumar"
+    },
+    {
+     "Name": "Cheshta Damor"
+    },
+    {
+     "Name": "Daksh Katkar"
+    },
+    {
+     "Name": "Dendukuri Sandeep Varma"
+    },
+    {
+     "Name": "Desai Utsav Manojkumar"
+    },
+    {
+     "Name": "DEVESH SONI"
+    },
+    {
+     "Name": "Dewaansh Vijayvargiya"
+    },
+    {
+     "Name": "Dhananjay Agnihotri"
     },
     {
      "Name": "Dhruv Khetan"
+    },
+    {
+     "Name": "Dhruv Patel"
+    },
+    {
+     "Name": "Disha Gupta"
+    },
+    {
+     "Name": "Dwarapudi Harshavardhan"
+    },
+    {
+     "Name": "Faheem M Yoonus"
+    },
+    {
+     "Name": "G R Uday Kumar Reddy"
+    },
+    {
+     "Name": "G. Sri Harsha"
+    },
+    {
+     "Name": "Gireesh Kumar"
+    },
+    {
+     "Name": "Gohil Jaydeep"
+    },
+    {
+     "Name": "Harsh Agarwal"
+    },
+    {
+     "Name": "Harsh Giri"
+    },
+    {
+     "Name": "Henil Agrawal"
+    },
+    {
+     "Name": "Himanshu Kumar"
+    },
+    {
+     "Name": "Himanshu Suvata"
+    },
+    {
+     "Name": "Hitaishi Modi"
+    },
+    {
+     "Name": "Hitesh Kumar"
+    },
+    {
+     "Name": "ISHAAN MANHAR"
+    },
+    {
+     "Name": "Jay Soni"
+    },
+    {
+     "Name": "Jinay Nandu"
+    },
+    {
+     "Name": "JITARTHA TALUKDAR"
+    },
+    {
+     "Name": "Joel Anto Paul"
+    },
+    {
+     "Name": "K Raghuram Chakravorthy"
+    },
+    {
+     "Name": "K S Varun"
+    },
+    {
+     "Name": "Kartik Sood"
+    },
+    {
+     "Name": "Kartik UC"
+    },
+    {
+     "Name": "Kavan Vavadiya"
+    },
+    {
+     "Name": "Khyathi Mothika"
+    },
+    {
+     "Name": "KRITI A"
+    },
+    {
+     "Name": "Kritika Gupta"
+    },
+    {
+     "Name": "Lansi H"
+    },
+    {
+     "Name": "Manas Agarwal"
+    },
+    {
+     "Name": "Mili R Pillai"
+    },
+    {
+     "Name": "Mohammed Hanzala Ansari"
+    },
+    {
+     "Name": "Mohit Chandak"
+    },
+    {
+     "Name": "Mohit Jajoriya"
+    },
+    {
+     "Name": "Nikhil Thakre"
+    },
+    {
+     "Name": "nitin kumar"
+    },
+    {
+     "Name": "Ojas Jain"
+    },
+    {
+     "Name": "Om desai"
+    },
+    {
+     "Name": "Param Shah"
+    },
+    {
+     "Name": "Parth Dani"
+    },
+    {
+     "Name": "pawan kumar"
+    },
+    {
+     "Name": "Piyush Banka"
+    },
+    {
+     "Name": "Pranav Singla"
+    },
+    {
+     "Name": "Priyadarshini Kamat"
+    },
+    {
+     "Name": "Ragasree R K"
+    },
+    {
+     "Name": "Ramzan Crescent Noushad"
+    },
+    {
+     "Name": "Rashi Jain"
+    },
+    {
+     "Name": "RASHMI KHETAN"
+    },
+    {
+     "Name": "Rekha sharma"
+    },
+    {
+     "Name": "Rucha Manish Aghera"
+    },
+    {
+     "Name": "Ruthvika A"
+    },
+    {
+     "Name": "Sajal Deolikar"
+    },
+    {
+     "Name": "Sakshi Priya"
+    },
+    {
+     "Name": "Saloni Jaiswal"
+    },
+    {
+     "Name": "Samarth Yadannavar"
+    },
+    {
+     "Name": "Sanket Kumar"
+    },
+    {
+     "Name": "Sannidhya Kaushal"
+    },
+    {
+     "Name": "Saptarsi Bhattacharjee"
+    },
+    {
+     "Name": "Sathvik Kanna"
+    },
+    {
+     "Name": "Satish saini"
+    },
+    {
+     "Name": "Satyajeet Das"
+    },
+    {
+     "Name": "Saurabh Devendrakumar Baghele"
+    },
+    {
+     "Name": "Shiv Bharuka"
+    },
+    {
+     "Name": "Shobhit Maheshwari"
+    },
+    {
+     "Name": "Shreya Tiwari"
+    },
+    {
+     "Name": "SHRISTI SHRIVASTAVA"
+    },
+    {
+     "Name": "Shruti"
+    },
+    {
+     "Name": "Shruti Prajapati"
+    },
+    {
+     "Name": "Shubham Ingale"
+    },
+    {
+     "Name": "Shubranil Chatterjee"
+    },
+    {
+     "Name": "SRI PRADHEEP K"
+    },
+    {
+     "Name": "Srishti Gautam"
+    },
+    {
+     "Name": "Srishti Sharma"
+    },
+    {
+     "Name": "Suryansh Lunkar"
+    },
+    {
+     "Name": "Tanmay Jain"
+    },
+    {
+     "Name": "Tushaar Jhamtani"
+    },
+    {
+     "Name": "Umesh Ghaskata"
+    },
+    {
+     "Name": "Utkarsh Gupta"
+    },
+    {
+     "Name": "Vaibhavi Shinde"
+    },
+    {
+     "Name": "Varun Karthik Makineni"
+    },
+    {
+     "Name": "Vemparala Lakshmi Pravallika"
+    },
+    {
+     "Name": "Vighnesh JR"
+    },
+    {
+     "Name": "Vinayak Gautam"
+    },
+    {
+     "Name": "VINU RAKAV S"
+    },
+    {
+     "Name": "Vivek Parmar"
+    },
+    {
+     "Name": "Yeshash Chandra Deeti"
+    },
+    {
+     "Name": "Yogesh Chetan"
     }
    ]
 

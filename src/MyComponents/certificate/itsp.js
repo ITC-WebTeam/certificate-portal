@@ -1,3 +1,4 @@
+import "./itsp.css"
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
@@ -9,6 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import { saveAs } from "file-saver";
 import { completion } from "../../assets/itsp-completion";
+import { mentors } from "../../assets/itsp-mentors";
 
 export default function ITSP() {
   var type;
@@ -26,15 +28,18 @@ export default function ITSP() {
     if (ismentee) {
       var mentee = document.getElementById("mentee").value;
       key = mentee.replace(/\s+/g, "%20");
+      const link = `${window.location.href}certificates/completion/${key}.png`;
+      await saveAs(link, "itsp-certificate.png");
     } else if (ismentor) {
       var mentor = document.getElementById("mentor").value;
-      key = mentor;
+      key = mentor.replace(/\s+/g, "%20");
+      const link = `${window.location.href}certificates/Mentors/${key}.png`;
+      await saveAs(link, "itsp-certificate.mentor.png");
     }
 
-    const links = ["completion", "Mentors", "Merit", "Special_Mention"];
-    var filename = `itsp-${links}.png`
-    const link = `${window.location.href}certificates/${links}/${key}.png`;
-    await saveAs(link, filename);
+    // const links = ["completion", "Mentors", "Merit", "Special_Mention"];
+    // var filename = `itsp-${links}.png`
+    
   };
 
   const handleChange = (e) => {
@@ -61,8 +66,8 @@ export default function ITSP() {
 
   return (
     <div>
-      <div>
-        <FormControl fullWidth>
+      <div className="Selected">
+        <FormControl className="form">
           <InputLabel id="demo-simple-select-label">Select</InputLabel>
           <Select
             labelId="demo-simple-select-label"
@@ -102,8 +107,8 @@ export default function ITSP() {
           <Autocomplete
             id="mentor"
             className="pt-5"
-            options={mentor}
-            getOptionLabel={(option) => option.name}
+            options={mentors}
+            getOptionLabel={(option) => option.Mentors}
             onChange={(e) => {
               valueChange(e);
             }}
@@ -114,7 +119,9 @@ export default function ITSP() {
       ) : (
         <></>
       )}
-      {isselected ? <button onClick={downloadfile}>Download</button> : <></>}
+      <div className="button">
+        {isselected ? <button onClick={downloadfile}>Download</button> : <></>}
+      </div>
     </div>
   );
 }

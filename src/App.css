@@ -14,7 +14,11 @@
 }
 
 .card{
+  display: flex;
+  align-items: center;
+  border: none;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .App-header {

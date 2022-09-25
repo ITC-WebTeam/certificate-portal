@@ -1,0 +1,17 @@
+.Selected{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    padding-left: 25rem;
+    /* width: 500px; */
+}
+
+.form{
+    width: 500px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    padding-left: 37rem;
+}

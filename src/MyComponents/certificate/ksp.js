@@ -93,6 +93,6 @@ export default function KSP() {
     //   )}
     //   {isselected ? <button onClick={downloadfile}>Download</button> : <></>}
     // </div>
-    <h3>Not Available</h3>
+    <h3>Not Available Yet</h3>
   );
 }

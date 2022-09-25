@@ -7,6 +7,7 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
+import { saveAs } from "file-saver";
 
 export default function SoS() {
 
@@ -14,6 +15,25 @@ export default function SoS() {
     const [ismentee, setmentee] = useState(false);
     const [ismentor, setmentor] = useState(false);
     const [isselected, setselect] = useState(false);
+
+    const downloadfile = async () => {
+        var key = 0;
+        if (ismentee) {
+          var mentee = document.getElementById("mentee").value;
+          key = mentee.replace(/\s+/g, "%20");
+          const link = `${window.location.href}certificates/Certificates_SoS/${key}.png`;
+          await saveAs(link, "sos-certificate.png");
+        } else if (ismentor) {
+          var mentor = document.getElementById("mentor").value;
+          key = mentor.replace(/\s+/g, "%20");
+          const link = `${window.location.href}certificates/Certificates_SoS/${key}.png`;
+          await saveAs(link, "sos-certificate.mentor.png");
+        }
+    
+        // const links = ["completion", "Mentors", "Merit", "Special_Mention"];
+        // var filename = `itsp-${links}.png`
+        
+      };
 
     const handleChange = (e) => {
         if (e) {
@@ -39,67 +59,66 @@ export default function SoS() {
     };
 
     return (
-        // <div>
-        //     <div>
-        //         <FormControl fullWidth>
-        //             <InputLabel id="demo-simple-select-label">Select</InputLabel>
-        //             <Select
-        //                 labelId="demo-simple-select-label"
-        //                 id="demo-simple-select"
-        //                 value={type}
-        //                 label="post"
-        //                 onChange={handleChange}
-        //             >
-        //                 <MenuItem value={10} name="Mentee">Mentee</MenuItem>
-        //                 <MenuItem value={20} name="Mentor">Mentor</MenuItem>
-        //             </Select>
-        //         </FormControl>
-        //     </div>
-        //     {ismentee ?
-        //         (<div className="card" id="participant">
-        //             <Autocomplete
+        <div>
+            <div>
+                <FormControl fullWidth>
+                    <InputLabel id="demo-simple-select-label">Select</InputLabel>
+                    <Select
+                        labelId="demo-simple-select-label"
+                        id="demo-simple-select"
+                        value={type}
+                        label="post"
+                        onChange={handleChange}
+                    >
+                        <MenuItem value={10} name="Mentee">Mentee</MenuItem>
+                        <MenuItem value={20} name="Mentor">Mentor</MenuItem>
+                    </Select>
+                </FormControl>
+            </div>
+            {ismentee ?
+                (<div className="card" id="participant">
+                    <Autocomplete
 
-        //                 id="mentee"
-        //                 className="pt-5"
-        //                 options={list}
-        //                 getOptionLabel={option => option.label}
-        //                 onChange={(e) => { valueChange(e) }}
-        //                 sx={{ width: 300 }}
-        //                 renderInput={(params) => <TextField {...params} label="Mentee" />}
-        //             />
-        //             <Autocomplete
+                        id="mentee"
+                        className="pt-5"
+                        options={list}
+                        getOptionLabel={option => option.label}
+                        onChange={(e) => { valueChange(e) }}
+                        sx={{ width: 300 }}
+                        renderInput={(params) => <TextField {...params} label="Mentee" />}
+                    />
+                    {/* <Autocomplete
 
-        //                 id="project"
-        //                 className="pt-5"
-        //                 options={list}
-        //                 getOptionLabel={option => option.Project}
-        //                 onChange={(e) => { valueChange(e) }}
-        //                 sx={{ width: 300 }}
-        //                 renderInput={(params) => <TextField {...params} label="Project" />}
-        //             />
+                        id="project"
+                        className="pt-5"
+                        options={list}
+                        getOptionLabel={option => option.Project}
+                        onChange={(e) => { valueChange(e) }}
+                        sx={{ width: 300 }}
+                        renderInput={(params) => <TextField {...params} label="Project" />}
+                    /> */}
 
-        //         </div>) : (<></>)
-        //     }
-        //     {ismentor ?
-        //         (<div className="card" id="participant">
-        //             <Autocomplete
+                </div>) : (<></>)
+            }
+            {ismentor ?
+                (<div className="card" id="participant">
+                    <Autocomplete
 
-        //                 id="mentor"
-        //                 className="pt-5"
-        //                 options={mentor}
-        //                 getOptionLabel={option => option.name}
-        //                 onChange={(e) => { valueChange(e) }}
-        //                 sx={{ width: 300 }}
-        //                 renderInput={(params) => <TextField {...params} label="Mentor" />}
-        //             />
-        //         </div>) : (<></>)
-        //     }
-        //     {isselected ?
-        //         (
-        //             <button onClick={downloadfile}>Download</button>
-        //         ) : (<></>)
-        //     }
-        // </div>
-        <h3>Not Available</h3>
+                        id="mentor"
+                        className="pt-5"
+                        options={mentor}
+                        getOptionLabel={option => option.name}
+                        onChange={(e) => { valueChange(e) }}
+                        sx={{ width: 300 }}
+                        renderInput={(params) => <TextField {...params} label="Mentor" />}
+                    />
+                </div>) : (<></>)
+            }
+            {isselected ?
+                (
+                    <button onClick={downloadfile}>Download</button>
+                ) : (<></>)
+            }
+        </div>
     )
 }
