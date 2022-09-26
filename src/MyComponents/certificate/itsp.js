@@ -120,7 +120,7 @@ export default function ITSP() {
         <></>
       )}
       <div className="button">
-        {isselected ? <button onClick={downloadfile}>Download</button> : <></>}
+        {isselected ? <button className="btn" onClick={downloadfile}>Download</button> : <></>}
       </div>
     </div>
   );

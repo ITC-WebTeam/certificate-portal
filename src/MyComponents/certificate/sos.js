@@ -1,3 +1,4 @@
+import "./sos.css"
 import React, { useState } from 'react'
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
@@ -60,8 +61,8 @@ export default function SoS() {
 
     return (
         <div>
-            <div>
-                <FormControl fullWidth>
+            <div className="Selected">
+                <FormControl className="form">
                     <InputLabel id="demo-simple-select-label">Select</InputLabel>
                     <Select
                         labelId="demo-simple-select-label"
@@ -116,7 +117,9 @@ export default function SoS() {
             }
             {isselected ?
                 (
-                    <button onClick={downloadfile}>Download</button>
+                    <div className="button">
+                        <button className="btn" onClick={downloadfile}>Download</button>
+                    </div>
                 ) : (<></>)
             }
         </div>

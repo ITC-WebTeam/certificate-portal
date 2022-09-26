@@ -1,3 +1,10 @@
+.btn{
+    padding: 0.8rem 3rem;
+    color: white;
+    background-color: #1976d2;
+    margin: 0rem -2rem;
+}
+
 /* .Selected{
     display: flex;
     align-items: center;
@@ -13,12 +20,5 @@
 /* .button{
     display: flex;
     align-items: center;
-    padding-left: 37rem;
+    text-align: center;
 } */
-
-.btn{
-    padding: 0.8rem 3rem;
-    color: white;
-    background-color: #1976d2;
-    margin: 0rem -2rem;
-}

@@ -91,7 +91,7 @@ export default function SoC() {
     //   ) : (
     //     <></>
     //   )}
-    //   {isselected ? <button onClick={downloadfile}>Download</button> : <></>}
+    //   {isselected ? <button className="btn" onClick={downloadfile}>Download</button> : <></>}
     // </div>
     <h3>Not Available Yet</h3>
   );
