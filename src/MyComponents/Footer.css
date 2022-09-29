@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.footer{
+    height: 15vh;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
