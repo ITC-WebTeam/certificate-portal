@@ -67,7 +67,7 @@ export default function ITSP() {
   return (
     <div>
       <div className="Selected">
-        <FormControl className="form">
+        <FormControl className="form p-4">
           <InputLabel id="demo-simple-select-label">Select</InputLabel>
           <Select
             labelId="demo-simple-select-label"
@@ -86,10 +86,10 @@ export default function ITSP() {
         </FormControl>
       </div>
       {ismentee ? (
-        <div className="card" id="participant">
+        <div className="option" id="participant">
           <Autocomplete
             id="mentee"
-            className="pt-5"
+            className="p-4"
             options={completion}
             getOptionLabel={(option) => option.Name}
             onChange={(e) => {
@@ -103,10 +103,10 @@ export default function ITSP() {
         <></>
       )}
       {ismentor ? (
-        <div className="card" id="participant">
+        <div className="option" id="participant">
           <Autocomplete
             id="mentor"
-            className="pt-5"
+            className="p-4"
             options={mentors}
             getOptionLabel={(option) => option.Mentors}
             onChange={(e) => {
