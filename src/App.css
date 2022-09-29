@@ -41,6 +41,8 @@
 .body-main{
   display: flex;
   /* background-size: cover; */
+  background-image: url(./assets/certificate-bg.png);
+  background-size: contain;
   min-height: 86vh;
   align-items: center;
   justify-content: center;

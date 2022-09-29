@@ -61,7 +61,7 @@ function App() {
             // aria-label="menu"
             // sx={{ mr: 2 }}
             >
-              {/* <a className='navbarbrand'><img src="./assets/itc.jpg" alt="Image Load Error" width="70" height="45"></a> */}
+              {/* <a className='navbar '><img src="./assets/itc.jpg" alt="Image Load Error" width="70" height="45"></a> */}
               {/* <MenuIcon /> */}
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
