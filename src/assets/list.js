@@ -1,493 +1,1895 @@
 const list = [
-    {"label":"Aryan Aswani","Project":"Corporate Finance"},
-    {"label":"Prateek Mishra","Project":"Logic in Computer Science"},
-    {"label":"Aadarsh Agarwal","Project":"Data Science"},
-    {"label":"Aakanksha Jain","Project":"Neural Networks and Deep Learning"},
-    {"label":"Aakarsh Chaudhary","Project":"Quantum Computing, Information and Quantum Technologies"},
-    {"label":"Aarushi Agarwal","Project":"Artificial Intelligence"},
-    {"label":"Aashish Tripathy","Project":"Machine Learning"},
-    {"label":"Aastha Sharma","Project":"Artificial Intelligence"},
-    {"label":"Aayushman Sinha","Project":"Web Development"},
-    {"label":"Abdul Raheem K","Project":"Stock Market Analysis"},
-    {"label":"Abhay Gupta","Project":"Digital Signal Processing"},
-    {"label":"Abhay Kinagi","Project":"Corporate Finance"},
-    {"label":"Abhijeet jha","Project":"Network Security"},
-    {"label":"Abhijeet Pal","Project":"Neural Networks and Deep Learning"},
-    {"label":"Abhiruchi Kotamkar","Project":"Web development"},
-    {"label":"Abhishek Malyan","Project":"Financial Mathematics"},
-    {"label":"Adarsh Reddy Madur","Project":"Stellar Astrophysics"},
-    {"label":"Adbhut Vipin Bhardwaj","Project":"Macroeconomics"},
-    {"label":"Aditya Agrawal","Project":"Computer Vision"},
-    {"label":"ADITYA BYJU","Project":"Algorithmic Trading"},
-    {"label":"Aditya Kumar","Project":"Web Development"},
-    {"label":"aditya laddha","Project":"Stock Market Analysis"},
-    {"label":"Aditya Mehta","Project":"Band structure of graphene using Tight-Binding model"},
-    {"label":"Aditya Sanjog Kabare","Project":"Special and General Relativity"},
-    {"label":"Aditya Sugriv Kendre","Project":"Comparing Random Forest Classifier and Neural Networks"},
-    {"label":"Agamjot Singh","Project":"Deep Learning and Neural Networks"},
-    {"label":"Agrim Gupta","Project":"Web Development"},
-    {"label":"Ajinkya Satishkumar Patil","Project":"Nonlinear Dynamics"},
-    {"label":"Akanksha Singh","Project":"Quantum Physics"},
-    {"label":"Akshat Agarwal","Project":"Stock Market Analysis"},
-    {"label":"Akshay Sharma","Project":"Computational Fluid Dynamics"},
-    {"label":"Alapati Tharaka Rama Chowdary","Project":"Condensed Matter Physics"},
-    {"label":"Alfia Zareen Khan","Project":"Cell Division and Cancer cells"},
-    {"label":"Alisha","Project":"Computational Neuroscience"},
-    {"label":"Alok Kumar","Project":"Stock Market Analysis"},
-    {"label":"Aman Kumar Vishwakarma","Project":"Corporate Finance"},
-    {"label":"Aman Singh","Project":"Modern Stock Trading"},
-    {"label":"Ameya Deshmukh","Project":"Abstract Algebra"},
-    {"label":"Ameya Halarnkar","Project":"Cosmology and Dark Matter"},
-    {"label":"Ameya Marakarkandy","Project":"Spaceflight Mechanics"},
-    {"label":"Ameya Vikrama Singh","Project":"Combinatorial Game Theory"},
-    {"label":"Amisha Saini","Project":"Stock Market Analysis"},
-    {"label":"Amit Kumar Jha","Project":"Data Structures and Algorithms"},
-    {"label":"Amruta Deo","Project":"Machine Learning"},
-    {"label":"Anagha Bhangare","Project":"Data Structures and Algorithms"},
-    {"label":"Anand Narasimhan","Project":"Group Theory"},
-    {"label":"Anannay jain","Project":"Stock market Analysis"},
-    {"label":"Ananya Dhale","Project":"Immunology"},
-    {"label":"Aneesh Kamat","Project":"Quantum Computation"},
-    {"label":"Angotu Jathin Sai Ganesh","Project":"STOCK MARKET ANALYSIS"},
-    {"label":"Aniket Chandrakant Warungse","Project":"Machine Learning"},
-    {"label":"Aniket Zambare","Project":"Quantum Mechanics"},
-    {"label":"Animesh Sahoo","Project":"Robotics and Controls"},
-    {"label":"Anish Amol Kulkarni","Project":"Topology"},
-    {"label":"Anisha Basumatary","Project":"Game Theory"},
-    {"label":"Ankit Kumar","Project":"Economics: Micro & Macro"},
-    {"label":"Ankit Somani","Project":"Data Structures and Algorithms"},
-    {"label":"Ankith R","Project":"Computer Vision"},
-    {"label":"Ankur Kumar","Project":"Data Science"},
-    {"label":"Anmol Kumar Sharma","Project":"Machine Design"},
-    {"label":"Annirudh K P","Project":"Probability and Statistics"},
-    {"label":"Anubhav Bhatla","Project":"Operating Systems"},
-    {"label":"Anuj Bhawsar","Project":"Stock Market Analysis"},
-    {"label":"Anuja Sanjay Sathe","Project":"Robotics with Arduino UNO"},
-    {"label":"Anupsa Swain","Project":"Rock, Paper, Scissors: Three Players Edition"},
-    {"label":"Anurag Chaudhari","Project":"Artificial Intelligence"},
-    {"label":"Anushka Nalawade","Project":"Data Structures & Algorithms"},
-    {"label":"Apoorva Kanti","Project":"Cosmology and Dark Matter"},
-    {"label":"Apurv Keer","Project":"Cosmology and Dark Matter"},
-    {"label":"Archit Gupta","Project":"Corporate Finance"},
-    {"label":"Areeb Asgar","Project":"Operating Systems"},
-    {"label":"Arhaan Ahmad","Project":"Game Theory"},
-    {"label":"Arham Jain","Project":"Modern stock trading"},
-    {"label":"Arnab Mondal","Project":"Data Science"},
-    {"label":"Arnav Pandit","Project":"Conumer Theory and Behavioral Analysis"},
-    {"label":"Arnav Patel","Project":"Data Structures and Algorithms"},
-    {"label":"Arpita Kumari","Project":"Artificial Intelligence"},
-    {"label":"Arush Gaur","Project":"Solar Thermal Power Plants"},
-    {"label":"Arya Agarwal","Project":"STOCK MARKET ANALYSIS"},
-    {"label":"Aryan Biswas","Project":"Stock market analysis"},
-    {"label":"aryan chourasia","Project":"Game theory"},
-    {"label":"Aryan Gupta","Project":"Stock Market Analysis"},
-    {"label":"Aryan kumar","Project":"Stock Market Analysis"},
-    {"label":"Aryant Balot","Project":"Heat Transfer"},
-    {"label":"Ashish Kedari","Project":"Machine Learning"},
-    {"label":"Ashish Singh Chauhan","Project":"Blockchain Technologies"},
-    {"label":"Ashok Kumar","Project":"Data Science"},
-    {"label":"Ashrita Vegi","Project":"Consumer Theory and Behavioral Analysis"},
-    {"label":"Ashutosh Singh","Project":"Data Structures and Algorithms"},
-    {"label":"Ashutosh Yadav","Project":"Date Fruits Classification Accuracy"},
-    {"label":"Ashwin Abraham","Project":"Machine Learning"},
-    {"label":"Ashwin Goyal","Project":"Newtonian Orbital Dynamics"},
-    {"label":"Astha Maurya","Project":"Heuristic Approach: Real Analysis"},
-    {"label":"Atharv Ramakant Nemade","Project":"modern stock trading"},
-    {"label":"Atharva Arora","Project":"Special Relativity"},
-    {"label":"Atharva Sunil Bagade","Project":"Data Science"},
-    {"label":"Atishay Jain","Project":"Stock Market Analysis"},
-    {"label":"Ayan Mallick","Project":"Cosmology and Dark matter"},
-    {"label":"AYUSH AGARWAL","Project":"Data Structure & Algorithm"},
-    {"label":"Ayush Kapoor","Project":"Data Structure & Algorithm"},
-    {"label":"Ayush Patil","Project":"Machine Learning"},
-    {"label":"AYUSH SAHU","Project":"stock market analysis"},
-    {"label":"Ayush Tarway","Project":"Stock Market Analysis"},
-    {"label":"Ayushh","Project":"Big Data"},
-    {"label":"Ayushman Choudhary","Project":"Natural Language Processing"},
-    {"label":"Aziz Shameem","Project":"Stock Market Analysis"},
-    {"label":"Badal Varshney","Project":"Cryptography"},
-    {"label":"Besekar Vaibhav Sudhakar","Project":"Data Science"},
-    {"label":"Bhaskar Pegu","Project":"Stock Market Analysis"},
-    {"label":"Bhavana P","Project":"Neural Networks and Deep Learning"},
-    {"label":"Bhavesh Khichi","Project":"Robotics"},
-    {"label":"Bhawna Bharti","Project":"Game Theory"},
-    {"label":"Bhawna Mahur","Project":"Deep Learning and Neural Network"},
-    {"label":"Bhumika Bhangale","Project":"Machines and materials"},
-    {"label":"Bhuvana Chandra Pullabhotla","Project":"Control Theory"},
-    {"label":"Bijay Kumar Shah","Project":"Deep Learning and Neural Network"},
-    {"label":"bijja sai kalyan","Project":"study of cosmology and dark matter"},
-    {"label":"Chaitanya Aggarwal","Project":"An Introduction to Algorithmic Trading"},
-    {"label":"Chanakya Varude","Project":"Web Development"},
-    {"label":"Chandan Soni","Project":"Deep Learning"},
-    {"label":"Charel Jaykumar Kanjibhai","Project":"Blockchain Technology"},
-    {"label":"Charul Mittal","Project":"Social Market Analysis"},
-    {"label":"Cheerla Vinay Kumar","Project":"Natural Language Processing"},
-    {"label":"cheshta damor","Project":"data science"},
-    {"label":"Chetan Patil","Project":"Blockchain Technology"},
-    {"label":"Chinmay Makarand Pimpalkhare","Project":"Graph Theory"},
-    {"label":"Chinta Siva Madhav","Project":"Celestial Mechanics"},
-    {"label":"Chirag S","Project":"Game Theory"},
-    {"label":"Dadi Dharani","Project":"Corporate Finance"},
-    {"label":"Daksh Jain","Project":"Corporate Finance"},
-    {"label":"Daniel Gracias","Project":"Nanomaterials"},
-    {"label":"Darshan Kumar","Project":"Blockchain Technology"},
-    {"label":"Darshan Makwana","Project":"Neural Networks"},
-    {"label":"Debasish Panda","Project":"Device Physics"},
-    {"label":"DEEPAK KUMAR","Project":"GROUP THEORY"},
-    {"label":"Deepankar Sehra","Project":"Web Development"},
-    {"label":"Dendukuri Sandeep Varma","Project":"Data Structures and Algorithms"},
-    {"label":"Devang Agarwal","Project":"Machine Learning"},
-    {"label":"Devanshu Saraf","Project":"Corporate Finance"},
-    {"label":"Dhavalkant","Project":"Data Structures and Algorithms"},
-    {"label":"Dhawal Singh","Project":"Cryptography"},
-    {"label":"Dhruv Piyush Rambhia","Project":"Stochastic Processes"},
-    {"label":"Dhruvi Ganatra","Project":"Artificial Intelligence"},
-    {"label":"Dipanshu Srivastava","Project":"Data Structures and Algorithms"},
-    {"label":"Divyanshu rathore","Project":"Data structure and algorithms"},
-    {"label":"Dosapati Jayanth","Project":"Machine Learning"},
-    {"label":"G Kamalesh","Project":"Machine Learning"},
-    {"label":"Gaurav Maheshwari","Project":"Stock Market Analysis"},
-    {"label":"Gaurav Shirsath","Project":"Blockchain Technology"},
-    {"label":"Gaurav soni","Project":"Data Structure And Algorithm"},
-    {"label":"Gaurishankar Swain","Project":"Network Security"},
-    {"label":"Gautam Asodiya","Project":"Corporate Finance"},
-    {"label":"Gautam Prabhudesai","Project":"Biotechnology and Biophysics"},
-    {"label":"Gehna Gudhainia","Project":"Corporate Finance"},
-    {"label":"Gourish Singhal","Project":"Stock Market Analysis"},
-    {"label":"Govind Kumar","Project":"Quantum Computing, Information, and Quantum Technology"},
-    {"label":"Hardik Batra","Project":"Principles Of Mathematical Analysis"},
-    {"label":"Hardik Panchal","Project":"Cryptography"},
-    {"label":"Harsh Agarwal","Project":"Machine Learning"},
-    {"label":"Harsh Amit  Shah","Project":"Reinforcement Learning"},
-    {"label":"Harsh Chaurasia","Project":"Computer Vision"},
-    {"label":"Harsh Hitesh Shah","Project":"Mechanics and Materials"},
-    {"label":"Harsh Vardhan","Project":"STOCK MARKET AND ANALYSIS"},
-    {"label":"Harshini Sreeram","Project":"Game Theory"},
-    {"label":"Harshit Dandelia","Project":"Data Science"},
-    {"label":"Harshit Porwal","Project":"Modern Stock Trading"},
-    {"label":"Harshit Raj","Project":"Neural Networks and Deep Learning"},
-    {"label":"Harshit Upadhyay","Project":"Deep Learning and Neural Networks"},
-    {"label":"Harshvardhan","Project":"Data Science with ML/AI"},
-    {"label":"Harsitha Devaraj","Project":"Introduction to Stock Market"},
-    {"label":"Himani Tamrakar","Project":"Data Structures and algorithms"},
-    {"label":"Himanshu Kumar","Project":"STOCK MARKET ANALYSIS"},
-    {"label":"Himanshu Raj","Project":"Fluid Mechanics"},
-    {"label":"Hiranmai Mohan","Project":"Nanomaterials"},
-    {"label":"Hrishikesh Jedhe Deshmukh","Project":"Data Structures and Algorithms"},
-    {"label":"Isha Arora","Project":"Blockchain Technology"},
-    {"label":"Isha Dev","Project":"Consumer Theory and Behavioral Economics"},
-    {"label":"Ishaan Garg","Project":"Computer Vision"},
-    {"label":"Ishaanvi Agrawal","Project":"Machine Learning"},
-    {"label":"Ishan Jain","Project":"Computational Fluid Dynamics"},
-    {"label":"Ishan Rajani","Project":"Algorithmic Trading"},
-    {"label":"Ishan Upadhyay","Project":"Reinforcement Learning"},
-    {"label":"Ishita Poddar","Project":"Consumer Theory and Behavioural Economics"},
-    {"label":"Ishwari Solase","Project":"Probability and Statistics"},
-    {"label":"Jagruti Lahamge","Project":"Web Development"},
-    {"label":"Jagruti Lahamge","Project":"Web Development"},
-    {"label":"Jagruti Lahamge","Project":"Web development"},
-    {"label":"jahnvee tailor","Project":"special theory of relativity"},
-    {"label":"Jahnvi Singh Rohela","Project":"Machine Learning"},
-    {"label":"Jaideep Kotani","Project":"Operating Systems"},
-    {"label":"Jainesh Manish Mehta","Project":"Quantum Information and Computing"},
-    {"label":"Janhavi Sonawane","Project":"Data Science"},
-    {"label":"Jaskeerat Kaur Billing","Project":"Financial Mathematics"},
-    {"label":"jayansh rangwani","Project":"BlockChain Technology"},
-    {"label":"Jayatri Pati","Project":"Bioinformatics"},
-    {"label":"JAYESH BHAGWAN BAGUL","Project":"QUANTUM INFORMATION &  COMPUTING"},
-    {"label":"Jayveer Singh Sikarwar","Project":"Web development"},
-    {"label":"Jenil Dayma","Project":"Economics"},
-    {"label":"Jennisha Agrawal","Project":"Game Theory"},
-    {"label":"Josyula Venkata Aditya","Project":"Quantum Computing, Information and Quantum Technology"},
-    {"label":"Kabir Bajaj","Project":"Analytical Formulation of Classical Field Theory"},
-    {"label":"Kalyani Gattani","Project":"Corporate Finance"},
-    {"label":"Kamble Bipin Ganpati","Project":"corporate finance"},
-    {"label":"Kandarp Solanki","Project":"Data Structures & Algorithms"},
-    {"label":"Kanishk Malkan","Project":"Number Theory"},
-    {"label":"Karan","Project":"Corporate finance"},
-    {"label":"Karan Godara","Project":"GAME THEORY"},
-    {"label":"Kartik Nair","Project":"Information Theory"},
-    {"label":"Kartik Sood","Project":"STOCK MARKET ANALYSIS FOR INVESTING"},
-    {"label":"Kartikey Anand","Project":"Deep Learning"},
-    {"label":"Kaushal Kumar Khunteta","Project":"Deep Learning and Neural Networks"},
-    {"label":"Kaushikraj Maharajan","Project":"Web development"},
-    {"label":"Kaustav Prasad","Project":"Photonics and Quantum Optics"},
-    {"label":"Kavita Chouhan","Project":"Stock Market Analysis"},
-    {"label":"Kedar Desai","Project":"Image Processing"},
-    {"label":"Keshav Patel Keval","Project":"Financial Mathematics"},
-    {"label":"Khushal Kumawat","Project":"Data science"},
-    {"label":"Khushang Singla","Project":"Stock Market Analysis"},
-    {"label":"Khushi Sagar","Project":"Fundamentals of Corporate Finance"},
-    {"label":"Khyathi Mothika","Project":"Data Science"},
-    {"label":"Kirtan Bhaskar","Project":"Game Theory"},
-    {"label":"Komalika Shirud","Project":"Data structures and algorithms"},
-    {"label":"Krishna Sirra","Project":"Diving into Machine Learning : Deep Learning."},
-    {"label":"krithika mittal","Project":"Data Science"},
-    {"label":"Kritika Gupta","Project":"Prediction Using Regression Models"},
-    {"label":"Kumari Pragati Gupta","Project":"Digital Image Processing"},
-    {"label":"Kumkum Narang","Project":"Neural Networks and Deep Learning"},
-    {"label":"Kunal","Project":"Probability and Statistics"},
-    {"label":"Kunal Kailash Sharma","Project":"Computational Fluid Dynamics"},
-    {"label":"Kunal Kumar Singh","Project":"Automotive Design"},
-    {"label":"Kushal Agarwal","Project":"Spaceflight Mechanics"},
-    {"label":"Kushal Pawaskar","Project":"Operating Systems"},
-    {"label":"Lavanya Raj","Project":"Stock Market Analysis"},
-    {"label":"Maalavika C S","Project":"Immunology"},
-    {"label":"Madhav Gupta","Project":"Machine Learning"},
-    {"label":"Mahesh K","Project":"Artificial Intelligence"},
-    {"label":"Mainak Singha","Project":"Auto Image Captioning"},
-    {"label":"Maithri Suresh","Project":"Cryptography"},
-    {"label":"Mali Shwetambari Sanjay","Project":"Machine Learning"},
-    {"label":"Malyala Preethi Sravani","Project":"Data Structures and Algorithms"},
-    {"label":"Manali Mandar Manjarekar","Project":"Stock Market Analysis"},
-    {"label":"Manan Garg","Project":"Operating Systems"},
-    {"label":"Manas Nagda","Project":"Elementary Particle Physics"},
-    {"label":"Manasi Pawar","Project":"Data Science and Neural Networks"},
-    {"label":"Manaswi Dhurve","Project":"Stock Market Analysis"},
-    {"label":"Manish kumar","Project":"Data science"},
-    {"label":"Mehul Vijay Chanda","Project":"Electronics And Instrumentation"},
-    {"label":"Modi Jay Kalpeshkumar","Project":"Biotechnology and Biophysics"},
-    {"label":"Mohd Saif","Project":"Hydrogen Storage and Its Utility"},
-    {"label":"MOHD SHADAB ANSARI","Project":"Cosmology and Dark Matter"},
-    {"label":"Mohit Punasiya","Project":"Natural Language Processing"},
-    {"label":"Moiz Shakruwala","Project":"Deep Learning and Neural and Neural Networks"},
-    {"label":"Moneesha PB","Project":"ECONOMICS"},
-    {"label":"Moningi Srija","Project":"Web Development"},
-    {"label":"Mridul Agarwal","Project":"Stock Market Analysis"},
-    {"label":"Naman Singh Rana","Project":"ML Applications in Biology"},
-    {"label":"Namita Agarwal","Project":"Quantum Field Theory"},
-    {"label":"Nandini beflawat","Project":"Web development"},
-    {"label":"Navdha","Project":"Cosmology and Dark matter"},
-    {"label":"Niare Doyom","Project":"Deep Dive into Quantum Information and technology"},
-    {"label":"Nikhil Kumar","Project":"Computer Vision"},
-    {"label":"Nikita Sharma","Project":"Corporate Finance"},
-    {"label":"Nilabha Saha","Project":"Quantum Computing and Information"},
-    {"label":"Nilabja Mandal","Project":"Fundamentals of Financial Mathematics: Modern Portfolio Theory in Brief"},
-    {"label":"Niranjan Deori","Project":"Data Structures and Algorithms"},
-    {"label":"Nishant Thakre","Project":"Deep Learning and Neural Networks"},
-    {"label":"Nishika Tolambiya","Project":"Blockchain Technology"},
-    {"label":"Nitish Goel","Project":"Data Science"},
-    {"label":"Nupur Unavekar","Project":"Stock Market Analysis"},
-    {"label":"Ojas Karanjkar","Project":"Neural Networks and Deep Learning"},
-    {"label":"Ojasvi Kathuria","Project":"Game theory"},
-    {"label":"Om Joglekar","Project":"PnC"},
-    {"label":"Om Katke","Project":"How Sorting in Linked Lists is done by MergeSort?"},
-    {"label":"Om Unhale","Project":"Robotics (Drone making)"},
-    {"label":"Omar Kashmar","Project":"Machine Learning Algorithms"},
-    {"label":"Pal Aggarwal","Project":"Psychology"},
-    {"label":"Palak Vora","Project":"Nanotechnology in medicine"},
-    {"label":"PARAM SHAH","Project":"Machine Learning"},
-    {"label":"Parishi Gupta","Project":"Data Science"},
-    {"label":"Parivesh meena","Project":"Cosmology and Dark Matter"},
-    {"label":"Patel Hemali Sureshbhai","Project":"Web Developement"},
-    {"label":"Pathipati Girishma Chowdary","Project":"Probability and Statistics"},
-    {"label":"Pavan Vijay Bodke","Project":"Financial Mathematics"},
-    {"label":"Pawan Kumar Meena","Project":"Stock Market Analysis"},
-    {"label":"Peram Ankshitha","Project":"MACHINE LEARNING"},
-    {"label":"Piyush Choudhary","Project":"Fundamentals of Quantitative Analysis"},
-    {"label":"Piyush Mourya","Project":"Machine Design"},
-    {"label":"Pooja Shelar","Project":"Machine learning- Deep learning"},
-    {"label":"Poojita Mishra","Project":"Stock market Analysis"},
-    {"label":"Pothala Sowmyasri","Project":"PROBABILITY AND STATISTICS"},
-    {"label":"Pradnya Manoj Kumbhare","Project":"Reinforcement learning"},
-    {"label":"Prakhar Tiwari","Project":"Automobile Design"},
-    {"label":"Prakriti Shahi","Project":"Quantum Computing, Information and Quantum Technologies"},
-    {"label":"Pranali Sarvade","Project":"Vitamin B12 Synthesis"},
-    {"label":"Pranav Sambhare","Project":"Reinforcement Learning"},
-    {"label":"Pranav Singla","Project":"Neural Networks and Deep Learning"},
-    {"label":"Prasad Chaure","Project":"Theory of relativity"},
-    {"label":"Prasenjit Darole","Project":"Blockchain Technology (Intro to DApp)"},
-    {"label":"Prashant Ranjan","Project":"Web development"},
-    {"label":"Pratham Chandra","Project":"Artificial Intelligence"},
-    {"label":"Pratham Tarjule","Project":"Machine Learning"},
-    {"label":"Prathamesh Deshmukh","Project":"Stock Market Analysis"},
-    {"label":"Prathmesh Arvind Shimpi","Project":"Stock Market Analysis"},
-    {"label":"Praveen Saharan","Project":"Web Development"},
-    {"label":"Prayaag Desai","Project":"Mathematical Modeling of Financial Risk Management"},
-    {"label":"Prerak Contractor","Project":"Quantum Information and Computing"},
-    {"label":"Prerna Agrawal","Project":"Gravity Assist Flybys"},
-    {"label":"Prince kumar","Project":"Data Structure and Algorithm in C++"},
-    {"label":"Priyadarshini Kamat","Project":"Criminology"},
-    {"label":"Priyam Garg","Project":"Consumer Theory"},
-    {"label":"Priyansh Gopawat","Project":"Financial Mathematics"},
-    {"label":"Priyanshi Gupta","Project":"Cryptography"},
-    {"label":"Priyanshu Gupta","Project":"Data Structures and Algorithms"},
-    {"label":"Priyanshu Saini","Project":"Nuclear Reactor"},
-    {"label":"Puja Maitra","Project":"Artificial Intelligence"},
-    {"label":"Purusotam Mishra","Project":"Web Development"},
-    {"label":"Raghav Rander","Project":"General Astronomy"},
-    {"label":"Raghav Rawat ","Project":"Overview of computer vision"},
-    {"label":"Raghav Rawat","Project":"Financial Mathematic"},
-    {"label":"Rahul Varma","Project":"Deep Learning and Neural Networks"},
-    {"label":"Rajadhyaksha Apoorva Girish","Project":"Immunology in Health and Disease"},
-    {"label":"Rajik Kumar","Project":"Stock Market Analysis"},
-    {"label":"Rakesh Kumar","Project":"Book recommendation system"},
-    {"label":"Ram Kandalkar","Project":"Data Structures and Algorithms"},
-    {"label":"Ram Prakash","Project":"Quantum physics"},
-    {"label":"Ramavath manikanth","Project":"Algorthmic trading"},
-    {"label":"Rathin Asodariya","Project":"Data Science"},
-    {"label":"Ravi Singh Adhikari","Project":"Quantum Information And Computing"},
-    {"label":"Reddy Bhavana","Project":"Neural Networks and deep learning"},
-    {"label":"Rehmat Singh Chawla","Project":"Elementary Particle Physics"},
-    {"label":"Rishank Suhas Meshram","Project":"Black hole thermodynamics"},
-    {"label":"Ritik Kumar","Project":"Modern Stock Trading"},
-    {"label":"Rucha Manish Aghera","Project":"Extra-Galactic Astronomy"},
-    {"label":"Rushika Shimpi","Project":"Financial Mathematics"},
-    {"label":"Sabyasachi Samantaray","Project":"Machine Learning"},
-    {"label":"Sahil Vaidya","Project":"Financial Mathematics"},
-    {"label":"Sainath Vavilapalli","Project":"Natural Language Processing"},
-    {"label":"Sajal Deolikar","Project":"Control Theory"},
-    {"label":"sakshi agarwal","Project":"web development"},
-    {"label":"Sakshi Priya","Project":"Stock Market Analysis"},
-    {"label":"Salil Singhal","Project":"Corporate Finance"},
-    {"label":"Saloni Kajal","Project":"Psychology"},
-    {"label":"Samagra Jain","Project":"Stock Market Analysis"},
-    {"label":"Samar jeet","Project":"Stock Market Analysis"},
-    {"label":"SAMARTH SHARMA","Project":"Stock Market Analysis"},
-    {"label":"Sameep Chattopadhyay","Project":"Information Theory"},
-    {"label":"Sameer Kankute","Project":"Data Structures and Algorithms"},
-    {"label":"Samriddhi Mishra","Project":"Data Structures and Algorithms"},
-    {"label":"Samyak Jha","Project":"Differential Gemometry"},
-    {"label":"Sanika Landge","Project":"Stock market analysis"},
-    {"label":"Sanika Wagh","Project":"Robotics"},
-    {"label":"Sanjana Shinde","Project":"Spaceflight mechanics"},
-    {"label":"Sanjhi Priya","Project":"Consumer Theory and Behavioral Analysis"},
-    {"label":"Sanket Kothawade","Project":"Stock Market Analysis"},
-    {"label":"Sanket Sanjay Pawar","Project":"Stock Market Analysis"},
-    {"label":"Sanyam jain","Project":"modern stock trading"},
-    {"label":"Saransh Soni","Project":"Neural Networks and Deep Learning"},
-    {"label":"Sathvik Kanna","Project":"Modern Stock Trading"},
-    {"label":"Satush Parikh","Project":"Data Structures and Algorithms"},
-    {"label":"Saukhya Telge","Project":"Spaceflight Mechanics"},
-    {"label":"SAURAV KUMAR","Project":"Basic Control Theory"},
-    {"label":"Sehajpal Singh","Project":"Exoplanets and their detection"},
-    {"label":"Shaswat Kumar","Project":"Artificial Intelligence"},
-    {"label":"Shirsh Sawarna","Project":"Financial Mathematics"},
-    {"label":"Shiv Kiran Bagathi","Project":"Artificial Intelligence"},
-    {"label":"Shiv Nandan Singh","Project":"Data Structure and Algorithms"},
-    {"label":"Shivam Raj","Project":"Data Structure and Algorithms"},
-    {"label":"Shivam Vinod Patil","Project":"Machine Learning"},
-    {"label":"Shlesh Gholap","Project":"Financial Mathematics"},
-    {"label":"Shlok zanwar","Project":"Stock Market Analysis"},
-    {"label":"Shounak Dewoolkar","Project":"Financial Mathematics"},
-    {"label":"Shravya Suresh","Project":"Natural Language Processing"},
-    {"label":"Shreyas Dayal","Project":"Artificial Intelligence"},
-    {"label":"Shreyas N B","Project":"Black Hole Thermodynamics"},
-    {"label":"Shruti Lohar","Project":"Hydrogen Storage and its Utility"},
-    {"label":"Shruti Nandeshwar","Project":"Cosmology and Dark Matter"},
-    {"label":"Shubh Verma","Project":"Game Theory"},
-    {"label":"Shubham Gurjar","Project":"Financial Mathematics"},
-    {"label":"SHUBHAM SINGH RAO","Project":"Electric Vehicles modeling"},
-    {"label":"Shubhang Shanghvi","Project":"Stock Market Analysis"},
-    {"label":"Siddhant Gedam","Project":"Cosmology and dark matter"},
-    {"label":"Siddhant Kalel","Project":"Stock Market Analysis"},
-    {"label":"Siddharth Anand","Project":"Coding Theory"},
-    {"label":"Simran Sinha","Project":"Quantum Information and Computing"},
-    {"label":"SK TAUSIF PARVEZ","Project":"Quantum Field Theory"},
-    {"label":"Smit Solanki","Project":"Blockchain Technology"},
-    {"label":"Smit Wagh","Project":"Data Structures And Algorithms"},
-    {"label":"Sneha Gaikwad","Project":"Data structures n algorithms"},
-    {"label":"Snehaa Reddy","Project":"Quantum computing and information"},
-    {"label":"Soham Joshi","Project":"Electronic Properties of Materials"},
-    {"label":"Soham Joshi","Project":"Application of Number Theory in Cryptography"},
-    {"label":"Solanki Shreyas","Project":"Corporate Finance"},
-    {"label":"Sonam M","Project":"Psychology"},
-    {"label":"Soutrik Sarangi","Project":"Deep Learning and Neural Networks"},
-    {"label":"Spandan Sachin Anaokar","Project":"Introduction to the Special Theory of Relativity"},
-    {"label":"Sreetam Tripathy","Project":"Linear Algebra"},
-    {"label":"Srijan Jha","Project":"DATA STRUCTURES AND ALGORITHMS"},
-    {"label":"Sriniketan Joshi","Project":"Quantum computing and quantum technologies"},
-    {"label":"Sthavir Mundre","Project":"Machine Learning"},
-    {"label":"Subram Das","Project":"Computer Vision"},
-    {"label":"Sumit Kumar","Project":"Stock Market Analysis"},
-    {"label":"Sumit Prasad","Project":"Data Structures and Algorithms"},
-    {"label":"Surabhi Gupta","Project":"The Probability & Statistics of Finance"},
-    {"label":"Swadhin Dash","Project":"Data structures and Algorithms"},
-    {"label":"Tambade Atharv Rhushikesh","Project":"Group Theory"},
-    {"label":"Tamojeet Roychowdhury","Project":"Special Relativity"},
-    {"label":"Tanirika Roy","Project":"Cryptography"},
-    {"label":"Tanmay Jain","Project":"Blockchain"},
-    {"label":"Tanmay Lodha","Project":"Machine Learning"},
-    {"label":"Tanmay Madavi","Project":"Stock Market Analysis"},
-    {"label":"Tanmay Patil","Project":"Special and General Theory of Relativity"},
-    {"label":"Tanmayee Bhadange","Project":"Psychology"},
-    {"label":"Tayde Indrayani Sadanand","Project":"Markov Chains and Applications in Finance"},
-    {"label":"Tejas Amritkar","Project":"Image Processing"},
-    {"label":"Tejas Neema","Project":"Understanding Economics"},
-    {"label":"Tharun Sidambaram M","Project":"Redox Flow Batteries and Solid State Batteries"},
-    {"label":"Tipparthi Jaideep Chandra","Project":"Machine Learning"},
-    {"label":"Tushnim Yuvaraj","Project":"Number Theory"},
-    {"label":"Umeshkumar Ghaskata","Project":"Data Structure and Algorithms"},
-    {"label":"unnati markam","Project":"stock market analysis"},
-    {"label":"Utkarsh Agiwal","Project":"Natural Language and Processing"},
-    {"label":"Utkarsh Chittora","Project":"Consumer Theory and Behavioral Economics"},
-    {"label":"Utkarsh Gupta","Project":"Robotics"},
-    {"label":"Utkarsha Patil","Project":"Statistics and Probability"},
-    {"label":"Utsav Paliwal","Project":"stocks"},
-    {"label":"Vaibhav Kumar","Project":"Network Security"},
-    {"label":"Vaibhav Ramesh Patil","Project":"Stock Market Analysis"},
-    {"label":"Vaishnavi Gawade","Project":"Consumer Theory And Behavioral Analysis"},
-    {"label":"Vaishnavi Shinde","Project":"Corporate Finance"},
-    {"label":"Varada Jaswanth Naidu","Project":"Financial Mathematics"},
-    {"label":"Varnika Agarwal","Project":"Financial Mathematics"},
-    {"label":"Varun Mattapally","Project":"Natural Language Processing"},
-    {"label":"Vedang Dhirendra Asgaonkar","Project":"AlgoTrading"},
-    {"label":"Vedant Vikas Chandewar","Project":"Artificial Intelligence"},
-    {"label":"Vedika Rathi","Project":"Special Theory of Relativity"},
-    {"label":"Vemparala Lakshmi Pravallika","Project":"Control Theory and its Applications"},
-    {"label":"venkata ganesh paidi","Project":"GAME THEORY"},
-    {"label":"Vibha Karnad","Project":"Graph theory"},
-    {"label":"Vijaya Bala Murugan I","Project":"MACHINE LEARNING"},
-    {"label":"Vinay Sutar","Project":"Number Theory"},
-    {"label":"Vinayak Goyal","Project":"Algorithmic Trading"},
-    {"label":"Vinayak Srivastava","Project":"Neural Networks and Deep Learning"},
-    {"label":"Vipin Singh","Project":"Algorithmic Trading"},
-    {"label":"Vishal Kumar","Project":"An Introduction to Game Theory"},
-    {"label":"Vishwesh Raut","Project":"Corporate Finance"},
-    {"label":"Vivek Kumar","Project":"Financial Mathematics"},
-    {"label":"Vora Jay Bhaveshbhai","Project":"Reinforcement Learning"},
-    {"label":"Vrinda Goel","Project":"Data Structures & Algorithms"},
-    {"label":"Yabaji Pratik Sanjay","Project":"Introduction to Machine Leraning"},
-    {"label":"Yash Kothari","Project":"Cracking the Stock Market code"},
-    {"label":"Yash Kumar","Project":"Data Structure and Algorithms"},
-    {"label":"Yash Salunkhe","Project":"Financial Mathematics"},
-    {"label":"Yash saraogi","Project":"Corporate Finance"},
-    {"label":"Yash Virani","Project":"Stock Market Analysis"},
-    {"label":"Yooktashree Barai","Project":"Data Science"},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"","Project":""},
-    {"label":"Abhinav Ghunawat","Project":"Algorithmic Trading"},
-    {"label":"Abhinav Vashishtha","Project":"Economics"},
-    {"label":"Amey Patil","Project":"Stock Market Analysis"},
-    {"label":"Ankita Anand","Project":"Financial mathematics"},
-    {"label":"Deepanshu Prasad","Project":"Stock Market analysis"},
-    {"label":"Hardik Jaluthariya","Project":"Psychology"},
-    {"label":"Kulbhushan Paliwal","Project":"Financial Mathematics"},
-    {"label":"Likith B","Project":"Understanding of Cryptography"},
-    {"label":"Mansi Ahire","Project":"Financial mathematics"},
-    {"label":"Mude Yashwanth","Project":"ML"},
-    {"label":"Nandini Chandak","Project":"Cosmology and Dark Matter"},
-    {"label":"Nikhil Thakre","Project":"Image Processing -decoding the pixels"},
-    {"label":"Nishant Rasekar","Project":"Data Science"},
-    {"label":"Ojas Jain","Project":"Stock Market Analysis"},
-    {"label":"Sanjana Nagmoti","Project":"Organic Synthesis, Synthesis of caffeine"},
-    {"label":"Shardul Kher","Project":"Robotics"},
-    {"label":"Sidhant Bose","Project":"Fundamentals of Computer Vision"}
-    ]
+        {
+         "Label": "Aadarsh Agarwal",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Aakanksha Jain",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Aakarsh Chaudhary",
+         "Project": "Quantum Computing"
+        },
+        {
+         "Label": "Aarushi Agarwal",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Aashish Tripathy",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Aastha Sharma",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Aayushman Sinha",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Abdul Raheem K",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Abhay Gupta",
+         "Project": "Digital Signal Processing"
+        },
+        {
+         "Label": "Abhay Kinagi",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Abhijeet Jha",
+         "Project": "Network Security"
+        },
+        {
+         "Label": "Abhijeet Pal",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Abhinav Ghunawat",
+         "Project": "Algorithmic Trading"
+        },
+        {
+         "Label": "Abhinav Vashishtha",
+         "Project": "Economics"
+        },
+        {
+         "Label": "Abhiruchi Kotamkar",
+         "Project": "Web development"
+        },
+        {
+         "Label": "Abhishek Malyan",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Adarsh Reddy Madur",
+         "Project": "Stellar Astrophysics"
+        },
+        {
+         "Label": "Adbhut Vipin Bhardwaj",
+         "Project": "Macroeconomics"
+        },
+        {
+         "Label": "Aditya Agrawal",
+         "Project": "Computer Vision"
+        },
+        {
+         "Label": "Aditya Byju",
+         "Project": "Algorithmic Trading"
+        },
+        {
+         "Label": "Aditya Kumar",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Aditya Laddha",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Aditya Mehta",
+         "Project": "Tight-Binding Model"
+        },
+        {
+         "Label": "Aditya Sanjog Kabare",
+         "Project": "Special and General Relativity"
+        },
+        {
+         "Label": "Aditya Sugriv Kendre",
+         "Project": "Neural Networks"
+        },
+        {
+         "Label": "Agamjot Singh",
+         "Project": "Deep Learning and Neural Networks"
+        },
+        {
+         "Label": "Agrim Gupta",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Ajinkya Satishkumar Patil",
+         "Project": "Nonlinear Dynamics"
+        },
+        {
+         "Label": "Akanksha Singh",
+         "Project": "Quantum Physics"
+        },
+        {
+         "Label": "Akshat Agarwal",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Akshay Sharma",
+         "Project": "Computational Fluid Dynamics"
+        },
+        {
+         "Label": "Alapati Tharaka Rama Chowdary",
+         "Project": "Condensed Matter Physics"
+        },
+        {
+         "Label": "Alfia Zareen Khan",
+         "Project": "Cell Division and Cancer cells"
+        },
+        {
+         "Label": "Alisha",
+         "Project": "Computational Neuroscience"
+        },
+        {
+         "Label": "Alok Kumar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Aman Kumar Vishwakarma",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Aman Singh",
+         "Project": "Modern Stock Trading"
+        },
+        {
+         "Label": "Amey Patil",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Ameya Deshmukh",
+         "Project": "Abstract Algebra"
+        },
+        {
+         "Label": "Ameya Halarnkar",
+         "Project": "Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Ameya Marakarkandy",
+         "Project": "Spaceflight Mechanics"
+        },
+        {
+         "Label": "Ameya Vikrama Singh",
+         "Project": "Combinatorial Game Theory"
+        },
+        {
+         "Label": "Amisha Saini",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Amit Kumar Jha",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Amruta Deo",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Anagha Bhangare",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Anand Narasimhan",
+         "Project": "Group Theory"
+        },
+        {
+         "Label": "Anannay Jain",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Ananya Dhale",
+         "Project": "Immunology"
+        },
+        {
+         "Label": "Aneesh Kamat",
+         "Project": "Quantum Computation"
+        },
+        {
+         "Label": "Angotu Jathin Sai Ganesh",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Aniket Chandrakant Warungse",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Aniket Zambare",
+         "Project": "Quantum Mechanics"
+        },
+        {
+         "Label": "Animesh Sahoo",
+         "Project": "Robotics and Controls"
+        },
+        {
+         "Label": "Anish Amol Kulkarni",
+         "Project": "Topology"
+        },
+        {
+         "Label": "Anisha Basumatary",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Ankit Kumar",
+         "Project": "Economics: Micro &amp; Macro"
+        },
+        {
+         "Label": "Ankit Somani",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Ankita Anand",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Ankith R",
+         "Project": "Computer Vision"
+        },
+        {
+         "Label": "Ankur Kumar",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Anmol Kumar Sharma",
+         "Project": "Machine Design"
+        },
+        {
+         "Label": "Annirudh K P",
+         "Project": "Probability and Statistics"
+        },
+        {
+         "Label": "Anubhav Bhatla",
+         "Project": "Operating Systems"
+        },
+        {
+         "Label": "Anuj Bhawsar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Anuja Sanjay Sathe",
+         "Project": "Robotics with Arduino UNO"
+        },
+        {
+         "Label": "Anupsa Swain",
+         "Project": "Rock Paper Scissors"
+        },
+        {
+         "Label": "Anurag Chaudhari",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Anushka Nalawade",
+         "Project": "Data Structures &amp; Algorithms"
+        },
+        {
+         "Label": "Apoorva Kanti",
+         "Project": "Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Apurv Keer",
+         "Project": "Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Archit Gupta",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Areeb Asgar",
+         "Project": "Operating Systems"
+        },
+        {
+         "Label": "Arhaan Ahmad",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Arham Jain",
+         "Project": "Modern Stock Trading"
+        },
+        {
+         "Label": "Arnab Mondal",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Arnav Pandit",
+         "Project": "Conumer Theory and Behavioral Analysis"
+        },
+        {
+         "Label": "Arnav Patel",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Arpita Kumari",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Arush Gaur",
+         "Project": "Solar Thermal Power Plants"
+        },
+        {
+         "Label": "Arya Agarwal",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Aryan Aswani",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Aryan Biswas",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Aryan Chourasia",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Aryan Gupta",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Aryan kumar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Aryant Balot",
+         "Project": "Heat Transfer"
+        },
+        {
+         "Label": "Ashish Kedari",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Ashish Singh Chauhan",
+         "Project": "Blockchain Technologies"
+        },
+        {
+         "Label": "Ashok Kumar",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Ashrita Vegi",
+         "Project": "Consumer Theory"
+        },
+        {
+         "Label": "Ashutosh Singh",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Ashutosh Yadav",
+         "Project": "Date Fruits Classification Accuracy"
+        },
+        {
+         "Label": "Ashwin Abraham",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Ashwin Goyal",
+         "Project": "Newtonian Orbital Dynamics"
+        },
+        {
+         "Label": "Astha Maurya",
+         "Project": "Heuristic Approach: Real Analysis"
+        },
+        {
+         "Label": "Atharv Ramakant Nemade",
+         "Project": "Modern Stock Trading"
+        },
+        {
+         "Label": "Atharva Arora",
+         "Project": "Special Relativity"
+        },
+        {
+         "Label": "Atharva Sunil Bagade",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Atishay Jain",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Ayan Mallick",
+         "Project": "Cosmology and Dark matter"
+        },
+        {
+         "Label": "Ayush Agrawal",
+         "Project": "Data Structure &amp; Algorithm"
+        },
+        {
+         "Label": "Ayush Kapoor",
+         "Project": "Data Structure &amp; Algorithm"
+        },
+        {
+         "Label": "Ayush Patil",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Ayush Sahu",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Ayush Tarway",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Ayushh",
+         "Project": "Big Data"
+        },
+        {
+         "Label": "Ayushman Choudhary",
+         "Project": "Natural Language Processing"
+        },
+        {
+         "Label": "Aziz Shameem",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Badal Varshney",
+         "Project": "Cryptography"
+        },
+        {
+         "Label": "Besekar Vaibhav Sudhakar",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Bhaskar Pegu",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Bhavana P",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Bhavesh Khichi",
+         "Project": "Robotics"
+        },
+        {
+         "Label": "Bhawna Bharti",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Bhawna Mahur",
+         "Project": "Deep Learning and Neural Network"
+        },
+        {
+         "Label": "Bhumika Bhangale",
+         "Project": "Machines and Materials"
+        },
+        {
+         "Label": "Bhuvana Chandra Pullabhotla",
+         "Project": "Control Theory"
+        },
+        {
+         "Label": "Bijay Kumar Shah",
+         "Project": "Deep Learning and Neural Network"
+        },
+        {
+         "Label": "Bijja Sai Kalyan",
+         "Project": "Study of Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Chaitanya Aggarwal",
+         "Project": "An Introduction to Algorithmic Trading"
+        },
+        {
+         "Label": "Chanakya Varude",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Chandan Soni",
+         "Project": "Deep Learning"
+        },
+        {
+         "Label": "Charel Jaykumar Kanjibhai",
+         "Project": "Blockchain Technology"
+        },
+        {
+         "Label": "Charul Mittal",
+         "Project": "Social Market Analysis"
+        },
+        {
+         "Label": "Cheerla Vinay Kumar",
+         "Project": "Natural Language Processing"
+        },
+        {
+         "Label": "Cheshta Damor",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Chetan Patil",
+         "Project": "Blockchain Technology"
+        },
+        {
+         "Label": "Chinmay Makarand Pimpalkhare",
+         "Project": "Graph Theory"
+        },
+        {
+         "Label": "Chinta Siva Madhav",
+         "Project": "Celestial Mechanics"
+        },
+        {
+         "Label": "Chirag S",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Dadi Dharani",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Daksh Jain",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Daniel Gracias",
+         "Project": "Nanomaterials"
+        },
+        {
+         "Label": "Darshan Kumar",
+         "Project": "Blockchain Technology"
+        },
+        {
+         "Label": "Darshan Makwana",
+         "Project": "Neural Networks"
+        },
+        {
+         "Label": "Debasish Panda",
+         "Project": "Device Physics"
+        },
+        {
+         "Label": "Deepak Kumar",
+         "Project": "Group Theory"
+        },
+        {
+         "Label": "Deepankar Sehra",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Deepanshu Prasad",
+         "Project": "Stock Market analysis"
+        },
+        {
+         "Label": "Dendukuri Sandeep Varma",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Devang Agarwal",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Devanshu Saraf",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Dhavalkant",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Dhawal Singh",
+         "Project": "Cryptography"
+        },
+        {
+         "Label": "Dhruv Piyush Rambhia",
+         "Project": "Stochastic Processes"
+        },
+        {
+         "Label": "Dhruvi Ganatra",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Dipanshu Srivastava",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Divyanshu Rathore",
+         "Project": "Data structure and Algorithms"
+        },
+        {
+         "Label": "Dosapati Jayanth",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "G Kamalesh",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Gaurav Maheshwari",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Gaurav Shirsath",
+         "Project": "Blockchain Technology"
+        },
+        {
+         "Label": "Gaurav Soni",
+         "Project": "Data Structure and Algorithm"
+        },
+        {
+         "Label": "Gaurishankar Swain",
+         "Project": "Network Security"
+        },
+        {
+         "Label": "Gautam Asodiya",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Gautam Prabhudesai",
+         "Project": "Biotechnology and Biophysics"
+        },
+        {
+         "Label": "Gehna Gudhainia",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Gourish Singhal",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Govind Kumar",
+         "Project": "Quantum Computing"
+        },
+        {
+         "Label": "Hardik Batra",
+         "Project": "Principles Of Mathematical Analysis"
+        },
+        {
+         "Label": "Hardik Jaluthariya",
+         "Project": "Psychology"
+        },
+        {
+         "Label": "Hardik Panchal",
+         "Project": "Cryptography"
+        },
+        {
+         "Label": "Harsh Agarwal",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Harsh Amit Shah",
+         "Project": "Reinforcement Learning"
+        },
+        {
+         "Label": "Harsh Chaurasia",
+         "Project": "Computer Vision"
+        },
+        {
+         "Label": "Harsh Hitesh Shah",
+         "Project": "Mechanics and Materials"
+        },
+        {
+         "Label": "Harsh Vardhan",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Harshini Sreeram",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Harshit Dandelia",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Harshit Porwal",
+         "Project": "Modern Stock Trading"
+        },
+        {
+         "Label": "Harshit Raj",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Harshit Upadhyay",
+         "Project": "Deep Learning and Neural Networks"
+        },
+        {
+         "Label": "Harshvardhan",
+         "Project": "Data Science with ML\/AI"
+        },
+        {
+         "Label": "Harsitha Devaraj",
+         "Project": "Introduction to Stock Market"
+        },
+        {
+         "Label": "Himani Tamrakar",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Himanshu Kumar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Himanshu Raj",
+         "Project": "Fluid Mechanics"
+        },
+        {
+         "Label": "Hiranmai Mohan",
+         "Project": "Nanomaterials"
+        },
+        {
+         "Label": "Hrishikesh Jedhe Deshmukh",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Isha Arora",
+         "Project": "Blockchain Technology"
+        },
+        {
+         "Label": "Isha Dev",
+         "Project": "Consumer Theory"
+        },
+        {
+         "Label": "Ishaan Garg",
+         "Project": "Computer Vision"
+        },
+        {
+         "Label": "Ishaanvi Agrawal",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Ishan Jain",
+         "Project": "Computational Fluid Dynamics"
+        },
+        {
+         "Label": "Ishan Rajani",
+         "Project": "Algorithmic Trading"
+        },
+        {
+         "Label": "Ishan Upadhyay",
+         "Project": "Reinforcement Learning"
+        },
+        {
+         "Label": "Ishita Poddar",
+         "Project": "Consumer Theory "
+        },
+        {
+         "Label": "Ishwari Solase",
+         "Project": "Probability and Statistics"
+        },
+        {
+         "Label": "Jagruti Lahamge",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Jagruti Lahamge",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Jagruti Lahamge",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Jahnvee Tailor",
+         "Project": "Special Theory of Relativity"
+        },
+        {
+         "Label": "Jahnvi Singh Rohela",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Jaideep Kotani",
+         "Project": "Operating Systems"
+        },
+        {
+         "Label": "Jainesh Manish Mehta",
+         "Project": "Quantum Computing and Information"
+        },
+        {
+         "Label": "Janhavi Sonawane",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Jaskeerat Kaur Billing",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Jayansh Rangwani",
+         "Project": "BlockChain Technology"
+        },
+        {
+         "Label": "Jayatri Pati",
+         "Project": "Bioinformatics"
+        },
+        {
+         "Label": "Jayesh Bhagwan Bagul",
+         "Project": "Quantum Computing and Information"
+        },
+        {
+         "Label": "Jayveer Singh Sikarwar",
+         "Project": "Web development"
+        },
+        {
+         "Label": "Jenil Dayma",
+         "Project": "Economics"
+        },
+        {
+         "Label": "Jennisha Agrawal",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Josyula Venkata Aditya",
+         "Project": "Quantum Computing"
+        },
+        {
+         "Label": "Kabir Bajaj",
+         "Project": "Classical Field Theory"
+        },
+        {
+         "Label": "Kalyani Gattani",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Kamble Bipin Ganpati",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Kandarp Solanki",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Kanishk Malkan",
+         "Project": "Number Theory"
+        },
+        {
+         "Label": "Karan",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Karan Godara",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Kartik Nair",
+         "Project": "Information Theory"
+        },
+        {
+         "Label": "Kartik Sood",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Kartikey Anand",
+         "Project": "Deep Learning"
+        },
+        {
+         "Label": "Kaushal Kumar Khunteta",
+         "Project": "Deep Learning and Neural Networks"
+        },
+        {
+         "Label": "Kaushikraj Maharajan",
+         "Project": "Web development"
+        },
+        {
+         "Label": "Kaustav Prasad",
+         "Project": "Deep Learning"
+        },
+        {
+         "Label": "Kavita Chouhan",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Kedar Desai",
+         "Project": "Image Processing"
+        },
+        {
+         "Label": "Keshav Patel Keval",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Khushal Kumawat",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Khushang Singla",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Khushi Sagar",
+         "Project": "Fundamentals of Corporate Finance"
+        },
+        {
+         "Label": "Khyathi Mothika",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Kirtan Bhaskar",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Komalika Shirud",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Krishna Sirra",
+         "Project": "Diving into Machine Learning : Deep Learning."
+        },
+        {
+         "Label": "Krithika Mittal",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Kritika Gupta",
+         "Project": "Prediction Using Regression Models"
+        },
+        {
+         "Label": "Kulbhushan Paliwal",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Kumari Pragati Gupta",
+         "Project": "Digital Image Processing"
+        },
+        {
+         "Label": "Kumkum Narang",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Kunal",
+         "Project": "Probability and Statistics"
+        },
+        {
+         "Label": "Kunal Kailash Sharma",
+         "Project": "Computational Fluid Dynamics"
+        },
+        {
+         "Label": "Kunal Kumar Singh",
+         "Project": "Automotive Design"
+        },
+        {
+         "Label": "Kushal Agarwal",
+         "Project": "Spaceflight Mechanics"
+        },
+        {
+         "Label": "Kushal Pawaskar",
+         "Project": "Operating Systems"
+        },
+        {
+         "Label": "Lavanya Raj",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Likith B",
+         "Project": "Understanding of Cryptography"
+        },
+        {
+         "Label": "Maalavika C S",
+         "Project": "Immunology"
+        },
+        {
+         "Label": "Madhav Gupta",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Mahesh K",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Mainak Singha",
+         "Project": "Auto Image Captioning"
+        },
+        {
+         "Label": "Maithri Suresh",
+         "Project": "Cryptography"
+        },
+        {
+         "Label": "Mali Shwetambari Sanjay",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Malyala Preethi Sravani",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Manali Mandar Manjarekar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Manan Garg",
+         "Project": "Operating Systems"
+        },
+        {
+         "Label": "Manas Nagda",
+         "Project": "Elementary Particle Physics"
+        },
+        {
+         "Label": "Manasi Pawar",
+         "Project": "Data Science and Neural Networks"
+        },
+        {
+         "Label": "Manaswi Dhurve",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Manish Kumar",
+         "Project": "Data science"
+        },
+        {
+         "Label": "Mansi Ahire",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Mehul Vijay Chanda",
+         "Project": "Electronics and Instrumentation"
+        },
+        {
+         "Label": "Modi Jay Kalpeshkumar",
+         "Project": "Biotechnology and Biophysics"
+        },
+        {
+         "Label": "Mohd Saif",
+         "Project": "Hydrogen Storage and Its Utility"
+        },
+        {
+         "Label": "Mohd Shadab Ansari",
+         "Project": "Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Mohit Punasiya",
+         "Project": "Natural Language Processing"
+        },
+        {
+         "Label": "Moiz Shakruwala",
+         "Project": "Deep Learning and Neural Networks"
+        },
+        {
+         "Label": "Moneesha PB",
+         "Project": "Economics"
+        },
+        {
+         "Label": "Moningi Srija",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Mridul Agarwal",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Mude Yashwanth",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Naman Singh Rana",
+         "Project": "ML Applications in Biology"
+        },
+        {
+         "Label": "Namita Agarwal",
+         "Project": "Quantum Field Theory"
+        },
+        {
+         "Label": "Nandini Beflawat",
+         "Project": "Web development"
+        },
+        {
+         "Label": "Nandini Chandak",
+         "Project": "Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Navdha",
+         "Project": "Cosmology and Dark matter"
+        },
+        {
+         "Label": "Niare Doyom",
+         "Project": "Quantum Information"
+        },
+        {
+         "Label": "Nikhil Kumar",
+         "Project": "Computer Vision"
+        },
+        {
+         "Label": "Nikhil Thakre",
+         "Project": "Image Processing - Decoding The Pixels"
+        },
+        {
+         "Label": "Nikita Sharma",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Nilabha Saha",
+         "Project": "Quantum Computing and Information"
+        },
+        {
+         "Label": "Nilabja Mandal",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Niranjan Deori",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Nishant Rasekar",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Nishant Thakre",
+         "Project": "Deep Learning and Neural Networks"
+        },
+        {
+         "Label": "Nishika Tolambiya",
+         "Project": "Blockchain Technology"
+        },
+        {
+         "Label": "Nitish Goel",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Nupur Unavekar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Ojas Jain",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Ojas Karanjkar",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Ojasvi Kathuria",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Om Joglekar",
+         "Project": "Permutation and Combination"
+        },
+        {
+         "Label": "Om Katke",
+         "Project": "Linked Lists by MergeSort"
+        },
+        {
+         "Label": "Om Unhale",
+         "Project": "Robotics (Drone making)"
+        },
+        {
+         "Label": "Omar Kashmar",
+         "Project": "Machine Learning Algorithms"
+        },
+        {
+         "Label": "Pal Aggarwal",
+         "Project": "Psychology"
+        },
+        {
+         "Label": "Palak Vora",
+         "Project": "Nanotechnology in Medicine"
+        },
+        {
+         "Label": "Param Shah",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Parishi Gupta",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Parivesh Meena",
+         "Project": "Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Patel Hemali Sureshbhai",
+         "Project": "Web Developement"
+        },
+        {
+         "Label": "Pathipati Girishma Chowdary",
+         "Project": "Probability and Statistics"
+        },
+        {
+         "Label": "Pavan Vijay Bodke",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Pawan Kumar Meena",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Peram Ankshitha",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Piyush Banka",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Piyush Choudhary",
+         "Project": "Fundamentals of Quantitative Analysis"
+        },
+        {
+         "Label": "Piyush Mourya",
+         "Project": "Machine Design"
+        },
+        {
+         "Label": "Pooja Shelar",
+         "Project": "Machine learning- Deep learning"
+        },
+        {
+         "Label": "Poojita Mishra",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Pothala Sowmyasri",
+         "Project": "Probability and Statistics"
+        },
+        {
+         "Label": "Pradnya Manoj Kumbhare",
+         "Project": "Reinforcement learning"
+        },
+        {
+         "Label": "Prakhar Tiwari",
+         "Project": "Automobile Design"
+        },
+        {
+         "Label": "Prakriti Shahi",
+         "Project": "Quantum Computing"
+        },
+        {
+         "Label": "Pranali Sarvade",
+         "Project": "Vitamin B12 Synthesis"
+        },
+        {
+         "Label": "Pranav Sambhare",
+         "Project": "Reinforcement Learning"
+        },
+        {
+         "Label": "Pranav Singla",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Prasad Chaure",
+         "Project": "Theory of relativity"
+        },
+        {
+         "Label": "Prasenjit Darole",
+         "Project": "Blockchain Technology (Intro to DApp)"
+        },
+        {
+         "Label": "Prashant Ranjan",
+         "Project": "Web development"
+        },
+        {
+         "Label": "Prateek Mishra",
+         "Project": "Logic in Computer Science"
+        },
+        {
+         "Label": "Pratham Chandra",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Pratham Tarjule",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Prathamesh Deshmukh",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Prathmesh Arvind Shimpi",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Praveen Saharan",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Prayaag Desai",
+         "Project": "Financial Risk Management"
+        },
+        {
+         "Label": "Prerak Contractor",
+         "Project": "Quantum Computing and Information"
+        },
+        {
+         "Label": "Prerna Agrawal",
+         "Project": "Gravity Assist Flybys"
+        },
+        {
+         "Label": "Prince Kumar",
+         "Project": "Data Structure and Algorithm in C++"
+        },
+        {
+         "Label": "Priyadarshini Kamat",
+         "Project": "Criminology"
+        },
+        {
+         "Label": "Priyam Garg",
+         "Project": "Consumer Theory"
+        },
+        {
+         "Label": "Priyansh Gopawat",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Priyanshi Gupta",
+         "Project": "Cryptography"
+        },
+        {
+         "Label": "Priyanshu Gupta",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Priyanshu Saini",
+         "Project": "Nuclear Reactor"
+        },
+        {
+         "Label": "Puja Maitra",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Purusotam Mishra",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Raghav Rander",
+         "Project": "General Astronomy"
+        },
+        {
+         "Label": "Raghav Rawat",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Rahul Varma",
+         "Project": "Deep Learning and Neural Networks"
+        },
+        {
+         "Label": "Rajadhyaksha Apoorva Girish",
+         "Project": "Immunology in Health and Disease"
+        },
+        {
+         "Label": "Rajik Kumar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Rakesh Kumar",
+         "Project": "Book Recommendation System"
+        },
+        {
+         "Label": "Ram Kandalkar",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Ram Prakash",
+         "Project": "Quantum Physics"
+        },
+        {
+         "Label": "Ramavath Manikanth",
+         "Project": "Algorthmic Trading"
+        },
+        {
+         "Label": "Rathin Asodariya",
+         "Project": "Data Science"
+        },
+        {
+         "Label": "Ravi Singh Adhikari",
+         "Project": "Quantum Computing and Information"
+        },
+        {
+         "Label": "Reddy Bhavana",
+         "Project": "Neural Networks and Deep learning"
+        },
+        {
+         "Label": "Rehmat Singh Chawla",
+         "Project": "Elementary Particle Physics"
+        },
+        {
+         "Label": "Rishank Suhas Meshram",
+         "Project": "Black Hole Thermodynamics"
+        },
+        {
+         "Label": "Ritik Kumar",
+         "Project": "Modern Stock Trading"
+        },
+        {
+         "Label": "Rucha Manish Aghera",
+         "Project": "Extra-Galactic Astronomy"
+        },
+        {
+         "Label": "Rushika Shimpi",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Sabyasachi Samantaray",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Sahil Vaidya",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Sainath Vavilapalli",
+         "Project": "Natural Language Processing"
+        },
+        {
+         "Label": "Sajal Deolikar",
+         "Project": "Control Theory"
+        },
+        {
+         "Label": "Sakshi Agarwal",
+         "Project": "Web Development"
+        },
+        {
+         "Label": "Sakshi Priya",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Salil Singhal",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Saloni Kajal",
+         "Project": "Psychology"
+        },
+        {
+         "Label": "Samagra Jain",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Samar Jeet",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Samarth Sharma",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Sameep Chattopadhyay",
+         "Project": "Information Theory"
+        },
+        {
+         "Label": "Sameer Kankute",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Samriddhi Mishra",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Samyak Jha",
+         "Project": "Differential Gemometry"
+        },
+        {
+         "Label": "Sanika Landge",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Sanika Wagh",
+         "Project": "Robotics"
+        },
+        {
+         "Label": "Sanjana Nagmoti",
+         "Project": "Organic Synthesis, Synthesis of Caffeine"
+        },
+        {
+         "Label": "Sanjana Shinde",
+         "Project": "Spaceflight Mechanics"
+        },
+        {
+         "Label": "Sanjhi Priya",
+         "Project": "Consumer Theory"
+        },
+        {
+         "Label": "Sanket Kothawade",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Sanket Sanjay Pawar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Sanyam Jain",
+         "Project": "Modern Stock Trading"
+        },
+        {
+         "Label": "Saransh Soni",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Sathvik Kanna",
+         "Project": "Modern Stock Trading"
+        },
+        {
+         "Label": "Satush Parikh",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Saukhya Telge",
+         "Project": "Spaceflight Mechanics"
+        },
+        {
+         "Label": "Saurav Kumar",
+         "Project": "Basic Control Theory"
+        },
+        {
+         "Label": "Sehajpal Singh",
+         "Project": "Exoplanets and Their Detection"
+        },
+        {
+         "Label": "Shardul Kher",
+         "Project": "Robotics"
+        },
+        {
+         "Label": "Shaswat Kumar",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Shirsh Sawarna",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Shiv Kiran Bagathi",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Shiv Nandan Singh",
+         "Project": "Data Structure and Algorithms"
+        },
+        {
+         "Label": "Shivam Raj",
+         "Project": "Data Structure and Algorithms"
+        },
+        {
+         "Label": "Shivam Vinod Patil",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Shlesh Gholap",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Shlok Zanwar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Shounak Dewoolkar",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Shravya Suresh",
+         "Project": "Natural Language Processing"
+        },
+        {
+         "Label": "Shreyas Dayal",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Shreyas N B",
+         "Project": "Black Hole Thermodynamics"
+        },
+        {
+         "Label": "Shruti Lohar",
+         "Project": "Hydrogen Storage and Its Utility"
+        },
+        {
+         "Label": "Shruti Nandeshwar",
+         "Project": "Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Shubh Verma",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Shubham Gurjar",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Shubham Singh Rao",
+         "Project": "Electric Vehicles Modeling"
+        },
+        {
+         "Label": "Shubhang Shanghvi",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Siddhant Gedam",
+         "Project": "Cosmology and Dark Matter"
+        },
+        {
+         "Label": "Siddhant Kalel",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Siddharth Anand",
+         "Project": "Coding Theory"
+        },
+        {
+         "Label": "Sidhant Bose",
+         "Project": "Fundamentals of Computer Vision"
+        },
+        {
+         "Label": "Simran Sinha",
+         "Project": "Quantum Computing and Information"
+        },
+        {
+         "Label": "Sk Tausif Parvez",
+         "Project": "Quantum Field Theory"
+        },
+        {
+         "Label": "Smit Solanki",
+         "Project": "Blockchain Technology"
+        },
+        {
+         "Label": "Smit Wagh",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Sneha Gaikwad",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Snehaa Reddy",
+         "Project": "Quantum Computing and Information"
+        },
+        {
+         "Label": "Soham Joshi",
+         "Project": "Electronic Properties of Materials"
+        },
+        {
+         "Label": "Soham Joshi",
+         "Project": "Cryptography"
+        },
+        {
+         "Label": "Solanki Shreyas",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Sonam M",
+         "Project": "Psychology"
+        },
+        {
+         "Label": "Soutrik Sarangi",
+         "Project": "Deep Learning and Neural Networks"
+        },
+        {
+         "Label": "Spandan Sachin Anaokar",
+         "Project": "Special Theory of Relativity"
+        },
+        {
+         "Label": "Sreetam Tripathy",
+         "Project": "Linear Algebra"
+        },
+        {
+         "Label": "Srijan Jha",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Sriniketan Joshi",
+         "Project": "Quantum Computing"
+        },
+        {
+         "Label": "Sthavir Mundre",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Subham Agrawal",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Subram Das",
+         "Project": "Computer Vision"
+        },
+        {
+         "Label": "Sumit Kumar",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Sumit Prasad",
+         "Project": "Data Structures and Algorithms"
+        },
+        {
+         "Label": "Surabhi Gupta",
+         "Project": "The Probability &amp; Statistics of Finance"
+        },
+        {
+         "Label": "Swadhin Dash",
+         "Project": "Data structures and Algorithms"
+        },
+        {
+         "Label": "Tambade Atharv Rhushikesh",
+         "Project": "Group Theory"
+        },
+        {
+         "Label": "Tamojeet Roychowdhury",
+         "Project": "Special Relativity"
+        },
+        {
+         "Label": "Tanirika Roy",
+         "Project": "Cryptography"
+        },
+        {
+         "Label": "Tanmay Jain",
+         "Project": "Blockchain"
+        },
+        {
+         "Label": "Tanmay Lodha",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Tanmay Madavi",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Tanmay Patil",
+         "Project": "Special and General Theory of Relativity"
+        },
+        {
+         "Label": "Tanmayee Bhadange",
+         "Project": "Psychology"
+        },
+        {
+         "Label": "Tayde Indrayani Sadanand",
+         "Project": "Markov Chains and Applications in Finance"
+        },
+        {
+         "Label": "Tejas Amritkar",
+         "Project": "Image Processing"
+        },
+        {
+         "Label": "Tejas Neema",
+         "Project": "Understanding Economics"
+        },
+        {
+         "Label": "Tharun Sidambaram M",
+         "Project": "Redox Flow Solid State Batteries"
+        },
+        {
+         "Label": "Tipparthi Jaideep Chandra",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Tushnim Yuvaraj",
+         "Project": "Number Theory"
+        },
+        {
+         "Label": "Umeshkumar Ghaskata",
+         "Project": "Data Structure and Algorithms"
+        },
+        {
+         "Label": "Unnati Markam",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Utkarsh Agiwal",
+         "Project": "Natural Language and Processing"
+        },
+        {
+         "Label": "Utkarsh Chittora",
+         "Project": "Consumer Theory"
+        },
+        {
+         "Label": "Utkarsh Gupta",
+         "Project": "Robotics"
+        },
+        {
+         "Label": "Utkarsha Patil",
+         "Project": "Statistics and Probability"
+        },
+        {
+         "Label": "Utsav Paliwal",
+         "Project": "Stock market analysis"
+        },
+        {
+         "Label": "Vaibhav Kumar",
+         "Project": "Network Security"
+        },
+        {
+         "Label": "Vaibhav Ramesh Patil",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Vaishnavi Gawade",
+         "Project": "Consumer Theory"
+        },
+        {
+         "Label": "Vaishnavi Shinde",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Varada Jaswanth Naidu",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Varnika Agarwal",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Varun Mattapally",
+         "Project": "Natural Language Processing"
+        },
+        {
+         "Label": "Vedang Dhirendra Asgaonkar",
+         "Project": "Algorithmic Trading"
+        },
+        {
+         "Label": "Vedant Vikas Chandewar",
+         "Project": "Artificial Intelligence"
+        },
+        {
+         "Label": "Vedika Rathi",
+         "Project": "Special Theory of Relativity"
+        },
+        {
+         "Label": "Vemparala Lakshmi Pravallika",
+         "Project": "Control Theory and Tts Applications"
+        },
+        {
+         "Label": "Venkata Ganesh Paidi",
+         "Project": "Game Theory"
+        },
+        {
+         "Label": "Vibha Karnad",
+         "Project": "Graph Theory"
+        },
+        {
+         "Label": "Vijaya Bala Murugan I",
+         "Project": "Machine Learning"
+        },
+        {
+         "Label": "Vinay Sutar",
+         "Project": "Number Theory"
+        },
+        {
+         "Label": "Vinayak Goyal",
+         "Project": "Algorithmic Trading"
+        },
+        {
+         "Label": "Vinayak Srivastava",
+         "Project": "Neural Networks and Deep Learning"
+        },
+        {
+         "Label": "Vipin Singh",
+         "Project": "Algorithmic Trading"
+        },
+        {
+         "Label": "Vishal Kumar",
+         "Project": "An Introduction to Game Theory"
+        },
+        {
+         "Label": "Vishwesh Raut",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Vivek Kumar",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Vora Jay Bhaveshbhai",
+         "Project": "Reinforcement Learning"
+        },
+        {
+         "Label": "Vrinda Goel",
+         "Project": "Data Structures &amp; Algorithms"
+        },
+        {
+         "Label": "Yabaji Pratik Sanjay",
+         "Project": "Introduction to Machine Leraning"
+        },
+        {
+         "Label": "Yash Kothari",
+         "Project": "Cracking the Stock Market code"
+        },
+        {
+         "Label": "Yash Kumar",
+         "Project": "Data Structure and Algorithms"
+        },
+        {
+         "Label": "Yash Salunkhe",
+         "Project": "Financial Mathematics"
+        },
+        {
+         "Label": "Yash Saraogi",
+         "Project": "Corporate Finance"
+        },
+        {
+         "Label": "Yash Virani",
+         "Project": "Stock Market Analysis"
+        },
+        {
+         "Label": "Yooktashree Barai",
+         "Project": "Data Science"
+        }
+       ]
 export {list}

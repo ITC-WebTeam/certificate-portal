@@ -42,7 +42,9 @@
   display: flex;
   /* background-size: cover; */
   background-image: url(./assets/certificate-bg.png);
-  background-size: contain;
+  /* background-size: cover; */
+  background-position-y: -50px;
+  /* background-position-x: 50px; */
   min-height: 86vh;
   align-items: center;
   justify-content: center;

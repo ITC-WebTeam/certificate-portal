@@ -17,9 +17,15 @@ import IconButton from '@mui/material/IconButton';
 // import MenuIcon from '@mui/icons-material/Menu';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { red } from '@mui/material/colors';
+import { createTheme,ThemeProvider } from '@mui/material/styles';
 
-
-
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#185473',
+    },
+  },
+});
 
 function App() {
 
@@ -52,7 +58,8 @@ function App() {
   return (
     <>
       <Box>
-        <AppBar position="static">
+        <ThemeProvider theme={theme}>
+        <AppBar position="static" color="primary">
           <Toolbar>
             <IconButton
             // size="large"
@@ -70,6 +77,7 @@ function App() {
             <Button color="inherit"></Button>
           </Toolbar>
         </AppBar>
+        </ThemeProvider>
       </Box>
 
       <div className="body-main">

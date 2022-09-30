@@ -77,13 +77,13 @@ export default function SoS() {
                 </FormControl>
             </div>
             {ismentee ?
-                (<div className="card" id="participant">
+                (<div className="card1" id="participant">
                     <Autocomplete
 
                         id="mentee"
-                        className="pt-5"
+                        className="p-5"
                         options={list}
-                        getOptionLabel={option => option.label}
+                        getOptionLabel={option => option.Label}
                         onChange={(e) => { valueChange(e) }}
                         sx={{ width: 300 }}
                         renderInput={(params) => <TextField {...params} label="Mentee" />}
@@ -102,11 +102,11 @@ export default function SoS() {
                 </div>) : (<></>)
             }
             {ismentor ?
-                (<div className="card" id="participant">
+                (<div className="card1" id="participant">
                     <Autocomplete
 
                         id="mentor"
-                        className="pt-5"
+                        className="p-5"
                         options={mentor}
                         getOptionLabel={option => option.name}
                         onChange={(e) => { valueChange(e) }}
