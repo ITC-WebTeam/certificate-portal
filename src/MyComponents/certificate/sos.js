@@ -28,7 +28,7 @@ export default function SoS() {
           var mentor = document.getElementById("mentor").value;
           key = mentor.replace(/\s+/g, "%20");
           const link = `${window.location.href}certificates/Certificates_SoS/${key}.png`;
-          await saveAs(link, "sos-certificate.mentor.png");
+          await saveAs(link, "sos-certificate_mentor.png");
         }
     
         // const links = ["completion", "Mentors", "Merit", "Special_Mention"];
