@@ -61,16 +61,6 @@ function App() {
         <ThemeProvider theme={theme}>
         <AppBar position="static" color="primary">
           <Toolbar>
-            <IconButton
-            // size="large"
-            // edge="start"
-            // color="inherit"
-            // aria-label="menu"
-            // sx={{ mr: 2 }}
-            >
-              {/* <a className='navbar '><img src="./assets/itc.jpg" alt="Image Load Error" width="70" height="45"></a> */}
-              {/* <MenuIcon /> */}
-            </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Certificate Portal
             </Typography>
@@ -83,7 +73,6 @@ function App() {
       <div className="body-main">
         <div className="card">
           <Autocomplete
-
             id="events"
             className="p-5"
             options={events}
