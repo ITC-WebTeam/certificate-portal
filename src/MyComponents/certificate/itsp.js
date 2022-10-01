@@ -2,8 +2,6 @@ import "./itsp.css"
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
-import { mentee } from "../../assets/mentee";
-import { mentor } from "../../assets/mentor";
 import Select from "@mui/material/Select";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -46,12 +44,15 @@ export default function ITSP() {
     if (e) {
       setmentee(false);
       setmentor(false);
+      setselect(false);
     }
     if (e.target.value === 10) {
       setmentee(true);
+      setselect(false);
     }
     if (e.target.value === 20) {
       setmentor(true);
+      setselect(false);
     }
   };
 

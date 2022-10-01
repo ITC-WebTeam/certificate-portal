@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import { list } from '../../assets/list';
-import { mentor } from '../../assets/mentor';
 import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -40,12 +39,15 @@ export default function SoS() {
         if (e) {
             setmentee(false);
             setmentor(false);
+            setselect(false);
         }
         if (e.target.value === 10) {
             setmentee(true);
+            setselect(false);
         }
         if (e.target.value === 20) {
             setmentor(true);
+            setselect(false);
         }
     };
 
@@ -102,19 +104,21 @@ export default function SoS() {
                 </div>) : (<></>)
             }
             {ismentor ?
-                (<div className="card1" id="participant">
-                    <Autocomplete
+                // (<div className="card1" id="participant">
+                //     <Autocomplete
 
-                        id="mentor"
-                        className="p-5"
-                        options={mentor}
-                        getOptionLabel={option => option.name}
-                        onChange={(e) => { valueChange(e) }}
-                        sx={{ width: 300 }}
-                        renderInput={(params) => <TextField {...params} label="Mentor" />}
-                    />
-                </div>) : (<></>)
+                //         id="mentor"
+                //         className="p-5"
+                //         options={mentor}
+                //         getOptionLabel={option => option.name}
+                //         onChange={(e) => { valueChange(e) }}
+                //         sx={{ width: 300 }}
+                //         renderInput={(params) => <TextField {...params} label="Mentor" />}
+                //     />
+                // </div>
+                (<div><br></br><div className="notice">Not Available Yet</div></div>) : (<></>)
             }
+
             {isselected ?
                 (
                     <div className="button">
