@@ -1,94 +1,154 @@
 const soc_mentor = [
     {
-      "Name": "Omkar Ghugarkar",
-      "Project": "(De)Noise"
+      "Name": "Aadish Jain",
+      "Project": "VoteChain"
     },
     {
-      "Name": "Bhuvan Aggarwal",
-      "Project": "(De)Noise"
+      "Name": "Abhijit Kumar",
+      "Project": "Musify - Music Composition using AI"
     },
     {
-      "Name": "Jai Israni",
-      "Project": "Advances in Nuclear Fusion"
+      "Name": "Abhinav Raghuvanshi",
+      "Project": "Neural Style Transfer for Text and Chats"
     },
     {
-      "Name": "Kritin Agarwal",
-      "Project": "AI Race Cars"
+      "Name": "Abhishek Mahajan",
+      "Project": "Remote sensing & Image Visualization using DL"
     },
     {
-      "Name": "Yash Shah",
-      "Project": "AI Race Cars"
-    },
-    {
-      "Name": "Vedang Asgaonkar",
-      "Project": "An Introduction to QC, ML, and QML"
-    },
-    {
-      "Name": "Siddhant Midha",
-      "Project": "An Introduction to QC, ML, and QML"
-    },
-    {
-      "Name": "Vikhyat Aggarwal",
-      "Project": "Applications of Machine Learning in Astronomy"
-    },
-    {
-      "Name": "Yashasvi Bhatt",
-      "Project": "Applications of Machine Learning in Astronomy"
-    },
-    {
-      "Name": "Dhananjay Kejriwal",
-      "Project": "BloggerHead (Intro to MERN)"
-    },
-    {
-      "Name": "Sartaj Islam",
-      "Project": "BloggerHead (Intro to MERN)"
-    },
-    {
-      "Name": "Mihika Dhok",
-      "Project": "BloggerHead (Intro to MERN)"
-    },
-    {
-      "Name": "Mayank Jain",
-      "Project": "Blogified"
-    },
-    {
-      "Name": "Shikhar Agrawal",
-      "Project": "Blogified"
-    },
-    {
-      "Name": "Kaivaly Daga",
-      "Project": "Child Face Generator"
-    },
-    {
-      "Name": "Manav Doshi",
-      "Project": "Child Face Generator"
-    },
-    {
-      "Name": "Shivprasad Kathane",
-      "Project": "CNN Based Stock Market Prediction"
-    },
-    {
-      "Name": "Vaibhav Raj",
-      "Project": "CNN-lytical"
-    },
-    {
-      "Name": "Ashwin Ramachandran",
-      "Project": "CNN-lytical"
+      "Name": "Aditya Kadoo",
+      "Project": "Mini Motorways Solver"
     },
     {
       "Name": "Akshat Kumar",
       "Project": "CNN-lytical"
     },
     {
-      "Name": "Virendra Kabra",
-      "Project": "Competitive Coding"
+      "Name": "Amit Joshi",
+      "Project": "Musify - Music Composition using AI"
+    },
+    {
+      "Name": "Aniruddh Baranwal",
+      "Project": "Stock Market Prediction using ARIMA Model"
+    },
+    {
+      "Name": "Ashwin Ramachandran",
+      "Project": "CNN-lytical"
+    },
+    {
+      "Name": "Aziz Shameem",
+      "Project": "Introduction to Machine Intelligence"
+    },
+    {
+      "Name": "Balbir Yadav",
+      "Project": "Developing E-commerce Website Using Django"
+    },
+    {
+      "Name": "Bhavesh Patil",
+      "Project": "Learn to Cartoonize"
+    },
+    {
+      "Name": "Bhuvan Aggarwal",
+      "Project": "(De)Noise"
+    },
+    {
+      "Name": "Dhairya Parekh",
+      "Project": "Stock Market Predictor using Deep Learning"
+    },
+    {
+      "Name": "Dhananjay Kejriwal",
+      "Project": "Intro to Web Development: News Café"
+    },
+    {
+      "Name": "Divyansh Agarwal",
+      "Project": "Text Summarization"
+    },
+    {
+      "Name": "Divyansh Srivastava",
+      "Project": "Data Structures & Algorithms & CP"
+    },
+    {
+      "Name": "Gaurang Dev",
+      "Project": "VoteChain"
+    },
+    {
+      "Name": "Goransh Gattani",
+      "Project": "Introduction to Web Development(Project Portal)"
+    },
+    {
+      "Name": "Gurpreet Singh Wadhwa",
+      "Project": "Intro to Web Development: News Café"
+    },
+    {
+      "Name": "Isha Mukherjee",
+      "Project": "Remote sensing & Image Visualization using DL"
+    },
+    {
+      "Name": "Jai Israni",
+      "Project": "Advances in Nuclear Fusion"
+    },
+    {
+      "Name": "Kaivaly Daga",
+      "Project": "Child Face Generator"
+    },
+    {
+      "Name": "Kishan Kumar",
+      "Project": "Stock Market Prediction using ARIMA Model"
+    },
+    {
+      "Name": "Krishna Sirra",
+      "Project": "Loan Approval Prediction"
+    },
+    {
+      "Name": "Kritin Agarwal",
+      "Project": "AI Race Cars"
+    },
+    {
+      "Name": "Manav Doshi",
+      "Project": "Child Face Generator"
+    },
+    {
+      "Name": "Mayank Jain",
+      "Project": "Blogified"
+    },
+    {
+      "Name": "Mihika Dhok",
+      "Project": "BloggerHead (Intro to MERN)"
+    },
+    {
+      "Name": "Mohit Sharma",
+      "Project": "Introduction to Web Development(Project Portal)"
+    },
+    {
+      "Name": "Molina Dhembla",
+      "Project": "Intro to Web Development: News Café"
+    },
+    {
+      "Name": "Naman Singh Rana",
+      "Project": "Stock Market Predictor using Deep Learning"
+    },
+    {
+      "Name": "Omkar Ghugarkar",
+      "Project": "(De)Noise"
+    },
+    {
+      "Name": "Prajwal Raut",
+      "Project": "Full Stack Web Development"
+    },
+    {
+      "Name": "Preet Shah",
+      "Project": "Deoldify Videos"
+    },
+    {
+      "Name": "Prerak Meshram",
+      "Project": "Mini Motorways Solver"
+    },
+    {
+      "Name": "Pulkit Jindal",
+      "Project": "Text Summarization"
     },
     {
       "Name": "Raghav Gupta",
-      "Project": "Credit Card Fraud Detection"
-    },
-    {
-      "Name": "Rishabh Gupta",
       "Project": "Credit Card Fraud Detection"
     },
     {
@@ -96,127 +156,51 @@ const soc_mentor = [
       "Project": "Credit Card Fraud Detection"
     },
     {
-      "Name": "Divyansh Srivastava",
-      "Project": "Data Structures & Algorithms & CP"
+      "Name": "Rishabh Gupta",
+      "Project": "Credit Card Fraud Detection"
     },
     {
-      "Name": "Yash Shah",
-      "Project": "Deoldify Videos"
+      "Name": "Rishi Kumar",
+      "Project": "Road Accident Prevention (RAP)"
     },
     {
-      "Name": "Preet Shah",
-      "Project": "Deoldify Videos"
-    },
-    {
-      "Name": "Balbir Yadav",
-      "Project": "Developing E-commerce Website Using Django"
+      "Name": "Rishikesh Gunjal",
+      "Project": "Road Accident Prevention (RAP)"
     },
     {
       "Name": "Ruchir Chheda",
       "Project": "Explore the world of Web 3.0"
     },
     {
-      "Name": "Bhavesh Patil",
-      "Project": "Explore the world of Web 3.0"
-    },
-    {
-      "Name": "Prajwal Raut",
-      "Project": "Full Stack Web Development"
-    },
-    {
       "Name": "Sahil Khan",
       "Project": "Full Stack Web Development"
     },
     {
-      "Name": "Vipul Singh",
-      "Project": "Intro to Competitive Programming"
+      "Name": "Sartaj Islam",
+      "Project": "BloggerHead (Intro to MERN)"
+    },
+    {
+      "Name": "Shikhar Agrawal",
+      "Project": "Blogified"
+    },
+    {
+      "Name": "Shikhar Mundra",
+      "Project": "Stock Market Predictor using Deep Learning"
     },
     {
       "Name": "Shivang Tiwari",
       "Project": "Intro to Competitive Programming"
     },
     {
-      "Name": "Dhananjay Kejriwal",
-      "Project": "Intro to Web Development: News Café"
+      "Name": "Shivprasad Kathane",
+      "Project": "Stock Market Analysis using basic Machine Learning"
     },
     {
-      "Name": "Gurpreet Singh Wadhwa",
-      "Project": "Intro to Web Development: News Café"
-    },
-    {
-      "Name": "Molina Dhembla",
-      "Project": "Intro to Web Development: News Café"
-    },
-    {
-      "Name": "Aziz Shameem",
-      "Project": "Introduction to Machine Intelligence"
-    },
-    {
-      "Name": "Tanmay Dokania",
-      "Project": "Introduction to Machine Intelligence"
-    },
-    {
-      "Name": "Yash Saraogi",
-      "Project": "Introduction to Web Development(Project Portal)"
-    },
-    {
-      "Name": "Mohit Sharma",
-      "Project": "Introduction to Web Development(Project Portal)"
-    },
-    {
-      "Name": "Goransh Gattani",
-      "Project": "Introduction to Web Development(Project Portal)"
-    },
-    {
-      "Name": "Vrinda Goyal",
-      "Project": "Learn to Cartoonize"
-    },
-    {
-      "Name": "Valay Bundele",
-      "Project": "Learn to Cartoonize"
-    },
-    {
-      "Name": "Bhavesh Patil",
-      "Project": "Learn to Cartoonize"
-    },
-    {
-      "Name": "Krishna Sirra",
-      "Project": "Loan Approval Prediction"
-    },
-    {
-      "Name": "Yash Saraogi",
-      "Project": "Loan Approval Prediction"
-    },
-    {
-      "Name": "Utkarsha Patil",
-      "Project": "Loan Approval Prediction"
-    },
-    {
-      "Name": "Prerak Meshram",
-      "Project": "Mini Motorways Solver"
-    },
-    {
-      "Name": "Aditya Kadoo",
-      "Project": "Mini Motorways Solver"
-    },
-    {
-      "Name": "Soumya Sharma",
-      "Project": "Musify - Music Composition using AI"
-    },
-    {
-      "Name": "Amit Joshi",
-      "Project": "Musify - Music Composition using AI"
-    },
-    {
-      "Name": "Abhijit Kumar",
-      "Project": "Musify - Music Composition using AI"
+      "Name": "Siddhant Midha",
+      "Project": "An Introduction to QC, ML, and QML"
     },
     {
       "Name": "Siddhesh Pawar",
-      "Project": "Neural Style Transfer for Text and Chats"
-    },
-    {
-      "Name": "Abhinav Raghuvanshi",
       "Project": "Neural Style Transfer for Text and Chats"
     },
     {
@@ -224,65 +208,62 @@ const soc_mentor = [
       "Project": "Personality Detection using Data from social media"
     },
     {
-      "Name": "Isha Mukherjee",
-      "Project": "Remote sensing & Image Visualization using DL"
+      "Name": "Soumya Sharma",
+      "Project": "Musify - Music Composition using AI"
     },
     {
-      "Name": "Abhishek Mahajan",
-      "Project": "Remote sensing & Image Visualization using DL"
+      "Name": "Tanmay Dokania",
+      "Project": "Introduction to Machine Intelligence"
     },
     {
-      "Name": "Rishikesh Gunjal",
-      "Project": "Road Accident Prevention (RAP)"
+      "Name": "Utkarsha Patil",
+      "Project": "Loan Approval Prediction"
     },
     {
-      "Name": "Rishi Kumar",
-      "Project": "Road Accident Prevention (RAP)"
+      "Name": "Vaibhav Raj",
+      "Project": "CNN-lytical"
     },
     {
-      "Name": "Shivprasad Kathane",
-      "Project": "Stock Market Analysis using basic Machine Learning"
+      "Name": "Valay Bundele",
+      "Project": "Learn to Cartoonize"
     },
     {
-      "Name": "Aniruddh Baranwal",
-      "Project": "Stock Market Prediction using ARIMA Model"
+      "Name": "Vedang Asgaonkar",
+      "Project": "An Introduction to QC, ML, and QML"
     },
     {
-      "Name": "Kishan Kumar",
-      "Project": "Stock Market Prediction using ARIMA Model"
+      "Name": "Vikhyat Aggarwal",
+      "Project": "Applications of Machine Learning in Astronomy"
     },
     {
-      "Name": "Shikhar Mundra",
-      "Project": "Stock Market Predictor using Deep Learning"
+      "Name": "Vipul Singh",
+      "Project": "Intro to Competitive Programming"
     },
     {
-      "Name": "Dhairya Parekh",
-      "Project": "Stock Market Predictor using Deep Learning"
+      "Name": "Virendra Kabra",
+      "Project": "Competitive Coding"
     },
     {
-      "Name": "Naman Singh Rana",
-      "Project": "Stock Market Predictor using Deep Learning"
+      "Name": "Vrinda Goyal",
+      "Project": "Learn to Cartoonize"
     },
     {
       "Name": "Yash Chaudhary",
       "Project": "Text Summarization"
     },
     {
-      "Name": "Divyansh Agarwal",
-      "Project": "Text Summarization"
+      "Name": "Yash Saraogi",
+      "Project": "Loan Approval Prediction"
     },
     {
-      "Name": "Pulkit Jindal",
-      "Project": "Text Summarization"
+      "Name": "Yash Shah",
+      "Project": "Deoldify Videos"
     },
     {
-      "Name": "Gaurang Dev",
-      "Project": "VoteChain"
-    },
-    {
-      "Name": "Aadish Jain",
-      "Project": "VoteChain"
+      "Name": "Yashasvi Bhatt",
+      "Project": "Applications of Machine Learning in Astronomy"
     }
+
   ]
 
 export { soc_mentor }
