@@ -5,6 +5,46 @@
     margin: 0rem -2rem;
 }
 
+.btn1{
+    padding: 0.8rem 1.5rem;
+    color: white;
+    background-color: #1976d2;
+    margin-right: 0rem 2rem;
+    /* border-left: 1px solid black; */
+    border: 2px solid #1976d2;
+    border-radius: 10px 0px 0px 10px ;
+}
+
+.btn2{
+    padding: 0.8rem 1.5rem;
+    color: white;
+    background-color: #1976d2;
+    margin-left: 0rem 2rem;
+    border: 2px solid #1976d2;
+    /* border: none; */
+    border-radius: 0px 10px 10px 0px ;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+/* .button{
+    margin-bottom: 1rem;
+}
+
+.button1{
+    margin-top: 1rem;
+} */
+
+/* .downloads{
+    display: flex;
+} */
 /* .Selected{
     display: flex;
     align-items: center;
@@ -22,3 +62,7 @@
     align-items: center;
     text-align: center;
 } */
+
+.form{
+    text-align: left;
+}
