@@ -41,7 +41,7 @@ function App() {
       setitsp(false)
       setksp(false)
     }
-    if (e.target.outerText === "Summer of Code(SoC)") {
+    if (e.target.outerText === "Seasons of Code(SoC)") {
       setsoc(true);
     }
     else if (e.target.outerText === "Summer of Science(SoS)") {
