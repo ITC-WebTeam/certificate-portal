@@ -28,13 +28,13 @@ export default function ITSP() {
       key = mentee.replace(/\s+/g, "%20");
       const link = `${window.location.href}certificates/completion/${key}.png`;
       await saveAs(link, "itsp-certificate.png");
-      console.log(link)
+      // console.log(link)
     } else if (ismentor) {
       var mentor = document.getElementById("mentor").value;
       key = mentor.replace(/\s+/g, "%20");
       const link = `${window.location.href}certificates/Mentors/${key}.png`;
       await saveAs(link, "itsp-certificate.mentor.png");
-      console.log(link)
+      // console.log(link)
     }
 
     // const links = ["completion", "Mentors", "Merit", "Special_Mention"];
