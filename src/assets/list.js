@@ -760,14 +760,6 @@ const list = [
          "Project": "Web Development"
         },
         {
-         "Label": "Jagruti Lahamge",
-         "Project": "Web Development"
-        },
-        {
-         "Label": "Jagruti Lahamge",
-         "Project": "Web Development"
-        },
-        {
          "Label": "Jahnvee Tailor",
          "Project": "Special Theory of Relativity"
         },
