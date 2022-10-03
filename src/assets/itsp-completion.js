@@ -231,7 +231,7 @@ const completion = [
      "Name": "Khyathi Mothika"
     },
     {
-     "Name": "KRITI A"
+     "Name": "Kriti A"
     },
     {
      "Name": "Kritika Gupta"
@@ -294,7 +294,7 @@ const completion = [
      "Name": "Rashi Jain"
     },
     {
-     "Name": "RASHMI KHETAN"
+     "Name": "Rashmi Khetan"
     },
     {
      "Name": "Rekha sharma"
@@ -348,7 +348,7 @@ const completion = [
      "Name": "Shreya Tiwari"
     },
     {
-     "Name": "SHRISTI SHRIVASTAVA"
+     "Name": "Shristi Shrivastava"
     },
     {
      "Name": "Shruti"
@@ -363,7 +363,7 @@ const completion = [
      "Name": "Shubranil Chatterjee"
     },
     {
-     "Name": "SRI PRADHEEP K"
+     "Name": "Sri Pradheep K"
     },
     {
      "Name": "Srishti Gautam"
@@ -402,7 +402,7 @@ const completion = [
      "Name": "Vinayak Gautam"
     },
     {
-     "Name": "VINU RAKAV S"
+     "Name": "Vinu Rakav S"
     },
     {
      "Name": "Vivek Parmar"
