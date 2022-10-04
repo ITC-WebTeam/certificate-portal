@@ -258,6 +258,9 @@ const completion = [
      "Name": "Nikhil Thakre"
     },
     {
+     "Name": "Ninad Gajbhiye"
+    },
+    {
      "Name": "nitin kumar"
     },
     {
@@ -400,6 +403,9 @@ const completion = [
     },
     {
      "Name": "Vinayak Gautam"
+    },
+    {
+     "Name": "Vinit Patidar"
     },
     {
      "Name": "Vinu Rakav S"

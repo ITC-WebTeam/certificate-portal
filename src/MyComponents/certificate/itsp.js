@@ -31,6 +31,7 @@ export default function ITSP() {
       // console.log(link)
     } else if (ismentor) {
       var mentor = document.getElementById("mentor").value;
+      console.log(mentor)
       key = mentor.replace(/\s+/g, "%20");
       const link = `${window.location.href}certificates/Mentors/${key}.png`;
       await saveAs(link, "itsp-certificate.mentor.png");
@@ -60,7 +61,7 @@ export default function ITSP() {
 
   const valueChange = (event) => {
     var key = event.target.textContent;
-    if (event.target.textContent !== "") {
+    if (key !== "") {
       setselect(true);
     } else {
       setselect(false);
