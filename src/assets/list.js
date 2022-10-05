@@ -693,7 +693,7 @@ const list = [
         },
         {
          "Label": "Harshvardhan",
-         "Project": "Data Science with ML\/AI"
+         "Project": "Data Science with ML/AI"
         },
         {
          "Label": "Harsitha Devaraj",

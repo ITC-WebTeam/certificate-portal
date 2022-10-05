@@ -9,6 +9,7 @@ import ITSP from './MyComponents/certificate/itsp';
 import KSP from './MyComponents/certificate/ksp';
 import SoS from './MyComponents/certificate/sos';
 import XLR8 from './MyComponents/certificate/xlr8';
+import Learners from './MyComponents/certificate/learners';
 import { AppBar } from '@mui/material';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -35,6 +36,7 @@ function App() {
   const [sos, setsos] = useState(false);
   const [ksp, setksp] = useState(false);
   const [xlr8, setxlr8] = useState(false);
+  const [learners, setlearners] = useState(false);
 
   function valueChange(e) {
     if (e) {
@@ -43,6 +45,7 @@ function App() {
       setitsp(false)
       setksp(false)
       setxlr8(false)
+      setlearners(false)
     }
     if (e.target.outerText === "Seasons of Code(SoC)") {
       setsoc(true);
@@ -58,6 +61,9 @@ function App() {
     }
     else if (e.target.outerText === "XLR8") {
       setxlr8(true);
+    }
+    else if (e.target.outerText === "Learners' Space"){
+      setlearners(true);
     }
   }
 
@@ -106,6 +112,9 @@ function App() {
           {xlr8 ?
             (<XLR8 />) : (<>
             </>)
+          }
+          {learners ?
+          (<Learners />) : (<></>)
           }
         </div>
       </div>
