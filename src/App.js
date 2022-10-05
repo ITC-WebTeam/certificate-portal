@@ -8,6 +8,7 @@ import SoC from './MyComponents/certificate/soc';
 import ITSP from './MyComponents/certificate/itsp';
 import KSP from './MyComponents/certificate/ksp';
 import SoS from './MyComponents/certificate/sos';
+import XLR8 from './MyComponents/certificate/xlr8';
 import { AppBar } from '@mui/material';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -33,6 +34,7 @@ function App() {
   const [itsp, setitsp] = useState(false);
   const [sos, setsos] = useState(false);
   const [ksp, setksp] = useState(false);
+  const [xlr8, setxlr8] = useState(false);
 
   function valueChange(e) {
     if (e) {
@@ -40,6 +42,7 @@ function App() {
       setsos(false)
       setitsp(false)
       setksp(false)
+      setxlr8(false)
     }
     if (e.target.outerText === "Seasons of Code(SoC)") {
       setsoc(true);
@@ -52,6 +55,9 @@ function App() {
     }
     else if (e.target.outerText === "Krittika Summer Project(KSP)") {
       setksp(true);
+    }
+    else if (e.target.outerText === "XLR8") {
+      setxlr8(true);
     }
   }
 
@@ -95,6 +101,10 @@ function App() {
           }
           {ksp ?
             (<KSP />) : (<>
+            </>)
+          }
+          {xlr8 ?
+            (<XLR8 />) : (<>
             </>)
           }
         </div>
