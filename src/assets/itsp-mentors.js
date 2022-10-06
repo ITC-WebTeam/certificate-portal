@@ -36,7 +36,7 @@ const mentors = [
      "Mentors": "Darshan Sinnarkar"
     },
     {
-     "Mentors": "DHEERAJ SHAKYA"
+     "Mentors": "Dheeraj Shakya"
     },
     {
      "Mentors": "Eeshan Jain"
@@ -51,7 +51,7 @@ const mentors = [
      "Mentors": "Harshit Singh"
     },
     {
-     "Mentors": "Khush chetan jain"
+     "Mentors": "Khush Chetan Jain"
     },
     {
      "Mentors": "Mukul Hatekar"
