@@ -358,6 +358,106 @@ const soc_mentee = [
     {
       "Name": "Vivek Parmar",
       "Project": "Advances in Nuclear Fusion"
+    },
+    {
+      "Name": "Arpana Prajapati",
+      "Project": "BloggerHead (Intro to MERN)"
+    },
+    {
+      "Name": "Hitaansh Shah",
+      "Project": "CNN Based Stock Market Prediction"
+    },
+    {
+      "Name": "Ayush Ramteke",
+      "Project": "BloggerHead (Intro to MERN)"
+    },
+    {
+      "Name": "Kaiwalya Joshi",
+      "Project": "Intro to Web Development: News Café"
+    },
+    {
+      "Name": "Raushan Kumar",
+      "Project": "Intro to Web Development: News Café"
+    },
+    {
+      "Name": "Alan Babu",
+      "Project": "Light"
+    },
+    {
+      "Name": "Keshav Singhal",
+      "Project": "Light"
+    },
+    {
+      "Name": "Sankalan Baidya",
+      "Project": "Light"
+    },
+    {
+      "Name": "Samyak Khetan",
+      "Project": "Light"
+    },
+    {
+      "Name": "Anish A. Kulkarni",
+      "Project": "Light"
+    },
+    {
+      "Name": "Arhaan Ahmad",
+      "Project": "Light"
+    },
+    {
+      "Name": "Rehmat Singh Chawla",
+      "Project": "Light"
+    },
+    {
+      "Name": "Jujhaar Singh",
+      "Project": "threeD"
+    },
+    {
+      "Name": "Kalash Shah",
+      "Project": "threeD"
+    },
+    {
+      "Name": "Vedang",
+      "Project": "threeD"
+    },
+    {
+      "Name": "Prashul Vaishnav",
+      "Project": "threeD"
+    },
+    {
+      "Name": "Nilabha Saha",
+      "Project": "CNN-lytical"
+    },
+    {
+      "Name": "Prateek Garg",
+      "Project": "Rendera"
+    },
+    {
+      "Name": "Om Katke",
+      "Project": "Rendera"
+    },
+    {
+      "Name": "Kartik Dhawaniya",
+      "Project": "Rendera"
+    },
+    {
+      "Name": "Ameya Vikrama Singh",
+      "Project": "Rendera"
+    },
+    {
+      "Name": "Mahesh Bhupati",
+      "Project": "Rendera"
+    },
+    {
+      "Name": "Om Godage",
+      "Project": "Video Super Resolution"
+    },
+    {
+      "Name": "Dhananjay Raman",
+      "Project": "Video Super Resolution"
+    },
+    {
+      "Name": "Govind Kumar",
+      "Project": "Video Super Resolution"
     }
 ]
 

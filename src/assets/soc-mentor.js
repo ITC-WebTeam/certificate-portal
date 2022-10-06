@@ -262,6 +262,46 @@ const soc_mentor = [
     {
       "Name": "Yashasvi Bhatt",
       "Project": "Applications of Machine Learning in Astronomy"
+    },
+    {
+      "Name": "Neilabh Banzal_Light",
+      "Project": "Light"
+    },
+    {
+      "Name": "Neilabh Banzal",
+      "Project": "threeD"
+    },
+    {
+      "Name": "Neilabh Banzal_Physicc",
+      "Project": "Physicc"
+    },
+    {
+      "Name": "Rwitaban Goswami",
+      "Project": "Light"
+    },
+    {
+      "Name": "Rwitaban Goswami_threeD",
+      "Project": "threeD"
+    },
+    {
+      "Name": "Rwitaban Goswami_Physicc",
+      "Project": "Physicc"
+    },
+    {
+      "Name": "Divyansh Tiwari",
+      "Project": "Rendera"
+    },
+    {
+      "Name": "Tirthankar Mazumder",
+      "Project": "Rendera"
+    },
+    {
+      "Name": "Kartik Gokhale",
+      "Project": "Video Super Resolution"
+    },
+    {
+      "Name": "Hastyn Doshi",
+      "Project": "Video Super Resolution"
     }
 
   ]

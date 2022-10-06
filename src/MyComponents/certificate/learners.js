@@ -72,8 +72,8 @@ export default function Learners() {
 
   return (
     <div>
-      {/* <div className="Selected"> */}
-        {/* <FormControl className="form">
+      {/* <div className="Selected">
+        <FormControl className="form">
           <InputLabel id="demo-simple-select-label">Select</InputLabel>
           <Select
             labelId="demo-simple-select-label"
@@ -89,8 +89,8 @@ export default function Learners() {
               Mentor
             </MenuItem>
           </Select>
-        </FormControl> */}
-      {/* </div> */}
+        </FormControl>
+      </div>
       {ismentee ? (
         <div className="option" id="participant">
           <Autocomplete
@@ -125,9 +125,10 @@ export default function Learners() {
       ) : (
         <></>
       )} */}
-      <div className="button">
+      {/*<div className="button">
         {isselected ? <button className="btn" onClick={downloadfile}>Download</button> : <></>}
-      </div>
+      </div> */}
+      <h3>Coming Soon!</h3>
     </div>
   );
 }
