@@ -24,7 +24,7 @@ const completion = [
      "Name": "Aboli"
     },
     {
-     "Name": "Adithyan Rajesh "
+     "Name": "Adithyan Rajesh"
     },
     {
      "Name": "Aditya Dhande"
@@ -198,7 +198,7 @@ const completion = [
      "Name": "Hitesh Kumar"
     },
     {
-     "Name": "ISHAAN MANHAR"
+     "Name": "Ishaan Manhar"
     },
     {
      "Name": "Jay Soni"
@@ -207,7 +207,7 @@ const completion = [
      "Name": "Jinay Nandu"
     },
     {
-     "Name": "JITARTHA TALUKDAR"
+     "Name": "Jitartha Talukdar"
     },
     {
      "Name": "Joel Anto Paul"
@@ -258,7 +258,7 @@ const completion = [
      "Name": "Nikhil Thakre"
     },
     {
-     "Name": "nitin kumar"
+     "Name": "Nitin Kumar"
     },
     {
      "Name": "Ojas Jain"
@@ -273,7 +273,7 @@ const completion = [
      "Name": "Parth Dani"
     },
     {
-     "Name": "pawan kumar"
+     "Name": "Pawan kumar"
     },
     {
      "Name": "Piyush Banka"
@@ -297,7 +297,7 @@ const completion = [
      "Name": "Rashmi Khetan"
     },
     {
-     "Name": "Rekha sharma"
+     "Name": "Rekha Sharma"
     },
     {
      "Name": "Rucha Manish Aghera"
@@ -330,7 +330,7 @@ const completion = [
      "Name": "Sathvik Kanna"
     },
     {
-     "Name": "Satish saini"
+     "Name": "Satish Saini"
     },
     {
      "Name": "Satyajeet Das"
