@@ -30,7 +30,7 @@ import Aerial from './MyComponents/certificate/TSS/aerial';
 import Blockchain from './MyComponents/certificate/TSS/blockchain';
 import Controls from './MyComponents/certificate/TSS/controls';
 import Energy from './MyComponents/certificate/TSS/energy';
-import { Global } from '@emotion/react';
+import Global  from './MyComponents/certificate/TSS/global';
 import Latex from './MyComponents/certificate/TSS/latex';
 import Web from './MyComponents/certificate/TSS/web';
 

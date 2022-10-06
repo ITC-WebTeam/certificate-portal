@@ -13,7 +13,7 @@ const events = [
   { label: "Controls Theory" },
   { label: "Fundamentals of Energy-Foundation" },
   { label: "Global Strategy" },
-  { label: "Introduction of Blockchain" },
+  { label: "Introduction to Blockchain" },
   { label: "Introduction to Web-Development" },
   { label: "LATEX" },
   { label: "Tinkering Bootcamp" },
