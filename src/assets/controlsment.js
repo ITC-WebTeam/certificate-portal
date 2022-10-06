@@ -1,30 +1,30 @@
 const control_ment = [
     {
-      "name": "Shubhranil Chatterjee"
+      "name": "Shubhranil Chatterjee "
     },
     {
-      "name": "Monu Kumar Yadav"
+      "name": "Monu Kumar Yadav "
     },
     {
-      "name": "Abhijeet"
+      "name": "Abhijeet "
     },
     {
-      "name": "Archit B Swamy"
+      "name": "Archit B Swamy "
     },
     {
-      "name": "Arnav Kalgutkar"
+      "name": "Arnav Kalgutkar "
     },
     {
-      "name": "Tanmay Ganguli"
+      "name": "Tanmay Ganguli "
     },
     {
-      "name": "Omar Nisture"
+      "name": "Omar Nisture "
     },
     {
       "name": "Utkarsh"
     },
     {
-      "name": "Kaushik"
+      "name": "Kaushik "
     }
   ]
 
