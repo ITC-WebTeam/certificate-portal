@@ -12,7 +12,8 @@ import { saveAs } from "file-saver";
 // import { xlr8_mentee } from "../../assets/xlr8-mentee"
 // import { global_ment }
 import { global_ment } from "../../../assets/globalment"
-export default function Global() {
+
+export default function Globall() {
   var type;
   const [ismentee, setmentee] = useState(true);
   // const [ismentor, setmentor] = useState(false);

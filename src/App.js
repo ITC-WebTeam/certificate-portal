@@ -31,6 +31,7 @@ import Blockchain from './MyComponents/certificate/TSS/blockchain';
 import Controls from './MyComponents/certificate/TSS/controls';
 import Energy from './MyComponents/certificate/TSS/energy';
 import { Global } from '@emotion/react';
+import Globall from './MyComponents/certificate/TSS/global';
 import Latex from './MyComponents/certificate/TSS/latex';
 import Web from './MyComponents/certificate/TSS/web';
 
@@ -66,6 +67,7 @@ function App() {
   // const [learners, setlearners] = useState(false);
 
   function valueChange(e) {
+    console.log(global)
     if (e) {
       setsoc(false)
       setsos(false)
@@ -82,7 +84,6 @@ function App() {
       setenergy(false)
       setfinance(false)
       setgame(false)
-      setglobal(false)
       setlatex(false)
       setweb(false)
       setmanage(false)
@@ -110,9 +111,12 @@ function App() {
       setweb(true);
     }else if (e.target.outerText === "Introduction to Blockchain"){
       setblock(true);
-    }else if (e.target.outerText === "Global Strategy"){
+    }
+    else if (e.target.outerText === "Global Strategy"){
       setglobal(true);
-    }else if (e.target.outerText === "Fundamentals of Energy-Foundation"){
+      console.log(global)
+    }
+    else if (e.target.outerText === "Fundamentals of Energy-Foundation"){
       setenergy(true);
     }else if (e.target.outerText === "Controls Theory"){
       setcontrols(true);
@@ -211,7 +215,7 @@ function App() {
           (<Energy />) : (<></>)
           }
           {global ?
-          (<Global />) : (<></>)
+          (<Globall />) : (<></>)
           }
           {latex ?
           (<Latex />) : (<></>)

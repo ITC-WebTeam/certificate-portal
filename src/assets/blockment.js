@@ -30,4 +30,4 @@ const block_ment = [
       "name": "Arhaan Ahmed"
     }
   ]
-  export{ block_ment}
+  export{ block_ment }
