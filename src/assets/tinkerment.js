@@ -453,7 +453,7 @@ const tinker_ment = [
       "name": "Abhijeet  Jha"
     },
     {
-      "name": "Asita  Dutta Sharma"
+      "name": "Asita Dutta Sharma"
     },
     {
       "name": "Tanmay  Jain"
