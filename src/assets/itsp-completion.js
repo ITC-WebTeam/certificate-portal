@@ -93,7 +93,7 @@ const completion = [
      "Name": "Aryank Banoth"
     },
     {
-     "Name": "Ashish Kumar saini"
+     "Name": "Ashish Kumar Saini"
     },
     {
      "Name": "Ashutosh Mulchandani"
