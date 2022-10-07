@@ -27,7 +27,7 @@ export default function Aerial() {
     var key = 0;
     var mentee = document.getElementById("mentee").value;
     key = mentee.replace(/\s+/g, "%20");
-    const link = `${window.location.href}certificates/AeriaL/${key}.png`;
+    const link = `${window.location.href}certificates/Aerial/${key}.png`;
     await saveAs(link, "aerial.png");
     // if (ismentee) {
     //   var mentee = document.getElementById("mentee").value;
