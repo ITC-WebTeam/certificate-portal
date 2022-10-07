@@ -30,8 +30,7 @@ import Aerial from './MyComponents/certificate/TSS/aerial';
 import Blockchain from './MyComponents/certificate/TSS/blockchain';
 import Controls from './MyComponents/certificate/TSS/controls';
 import Energy from './MyComponents/certificate/TSS/energy';
-import { Global } from '@emotion/react';
-import Globall from './MyComponents/certificate/TSS/global';
+import Global  from './MyComponents/certificate/TSS/global';
 import Latex from './MyComponents/certificate/TSS/latex';
 import Web from './MyComponents/certificate/TSS/web';
 
@@ -113,8 +112,9 @@ function App() {
       setblock(true);
     }
     else if (e.target.outerText === "Global Strategy"){
+
       setglobal(true);
-      console.log(global)
+
     }
     else if (e.target.outerText === "Fundamentals of Energy-Foundation"){
       setenergy(true);
@@ -215,7 +215,7 @@ function App() {
           (<Energy />) : (<></>)
           }
           {global ?
-          (<Globall />) : (<></>)
+          (<Global />) : (<></>)
           }
           {latex ?
           (<Latex />) : (<></>)
