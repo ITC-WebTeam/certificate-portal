@@ -24,9 +24,6 @@ const tinker_ment = [
     "name": "Abhishek Kedare"
   },
   {
-    "name": "Abhishek Kedare"
-  },
-  {
     "name": "Abhishek kushwah"
   },
   {
@@ -108,7 +105,7 @@ const tinker_ment = [
     "name": "Ashutosh Mulchandani"
   },
   {
-    "name": "Asita  Dutta Sharma"
+    "name": "Asita Dutta Sharma"
   },
   {
     "name": "Atishay Jain"
@@ -276,9 +273,6 @@ const tinker_ment = [
     "name": "Prachit Gupta"
   },
   {
-    "name": "Prachit Gupta"
-  },
-  {
     "name": "Pragyesh Bajpai"
   },
   {
@@ -370,9 +364,6 @@ const tinker_ment = [
   },
   {
     "name": "Shobhanaa Kaushikee"
-  },
-  {
-    "name": "Shounak Das"
   },
   {
     "name": "Shounak Das"
