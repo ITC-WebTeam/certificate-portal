@@ -33,6 +33,7 @@ import Energy from './MyComponents/certificate/TSS/energy';
 import Global  from './MyComponents/certificate/TSS/global';
 import Latex from './MyComponents/certificate/TSS/latex';
 import Web from './MyComponents/certificate/TSS/web';
+import Machine from './MyComponents/certificate/TL/machine';
 
 const theme = createTheme({
   palette: {
@@ -62,6 +63,7 @@ function App() {
   const [block, setblock] = useState(false);
   const [web, setweb] = useState(false);
   const [latex, setlatex] = useState(false);
+  const [machine, setmachine] = useState(false);
   // const [global, setglobal] = useState(false);
   // const [learners, setlearners] = useState(false);
 
@@ -86,6 +88,7 @@ function App() {
       setlatex(false)
       setweb(false)
       setmanage(false)
+      setmachine(false)
     }
     if (e.target.outerText === "Seasons of Code(SoC)") {
       setsoc(true);
@@ -132,6 +135,9 @@ function App() {
       setfinance(true);
     }else if (e.target.outerText === "Consulting-101"){
       setcon(true);
+    }
+    else if (e.target.outerText === "Machine Training"){
+      setmachine(true);
     }
   }
 
@@ -222,6 +228,9 @@ function App() {
           }
           {web ?
           (<Web />) : (<></>)
+          }
+          {machine ?
+          (<Machine />) : (<></>)
           }
         </div>
       </div>

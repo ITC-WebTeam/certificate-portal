@@ -17,6 +17,7 @@ const events = [
   { label: "Introduction to Web-Development" },
   { label: "LATEX" },
   { label: "Tinkering Bootcamp" },
+  { label: "Machine Training" },
 ];
 
 export default events
